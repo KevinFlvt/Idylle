@@ -1,0 +1,53 @@
+@import '../../../index.scss';
+
+.singlePost {
+    flex: 9;
+
+    &__wrapper {
+        padding: 20px;
+
+        &__image {
+            width: 100%;
+            height: 360px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+
+        &__title {
+            text-align: center;
+            margin: 10px;
+            font-size: 28px;
+        }
+
+        &__infos {
+            display: flex;
+            margin-bottom: 20px;
+            justify-content: space-between;
+        }
+
+        &__desc {
+            font-size: 20px;
+            line-height: 25px;
+
+            &::first-letter {
+                margin-left: 20px;
+                font-size: 30px;
+                font-weight: 600;
+            }
+        }
+
+        i {
+            position: relative;
+            top: 2px;
+        }
+
+        a {
+            color: inherit;            
+        }
+
+        p:last-child {
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+}

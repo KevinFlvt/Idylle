@@ -1,0 +1,16 @@
+@import '../index.scss';
+
+.blog {
+
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+        border-bottom: 3px solid #fff;
+        width: 8%;
+        margin-bottom: 50px;
+    }
+
+    &__content {
+        display: flex;        
+    }
+}

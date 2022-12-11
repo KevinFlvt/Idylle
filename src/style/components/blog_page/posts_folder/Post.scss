@@ -1,0 +1,56 @@
+@import '../../../index.scss';
+
+.post {
+   width: 42%; 
+   //margin: 0px 25px 40px 25px;
+   margin: 0 auto 40px;
+
+   &__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 7px;
+   }
+
+   &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+        &__categories {
+
+            &__cat {
+                font-size: 14px;
+                line-height: 20px;
+                margin-top: 15px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+        }
+        
+        &__title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        &__date {
+            font-style: italic;
+            font-size: 13px;
+            color: #444;
+            margin-top: 15px;
+        }
+   }
+
+   &__description {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+   }
+}

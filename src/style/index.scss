@@ -1,0 +1,115 @@
+@import '../App.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Noto+Serif&display=swap');
+//family=Poppins:wght@300&display=swap    'Poppins', sans-serif;
+
+// Variable globale du code
+$idylle-color : #dcb993;
+$idylle-text : 'Noto Serif', serif;
+$idylle-style : 'Parisienne', cursive;
+
+// Mixins
+@mixin line {
+  border: 1.9px solid;
+  width: 120px;
+  margin-bottom: 2%;
+}
+
+@mixin photo-phone {
+  height: 350px;
+  width: 260px;
+  
+}
+
+@mixin title-style {
+  margin: 2% auto 5%;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+  font-family: $idylle-style;
+  font-weight: 50;
+  font-size: 74px;
+  letter-spacing: .15em;
+}
+
+@mixin background {
+  background: no-repeat center linear-gradient(rgba(40, 40, 40, 0.35), rgba(66, 66, 59, 0.1)), url('../medias/background.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+*, 
+*::after, 
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  width: 85%;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+  font-size: 90%;
+  min-height: 100vh;
+  font-family: $idylle-text;
+  @include background;
+  color: #fff;
+  
+}
+
+body {  
+  font-family: $idylle-text;
+  font-weight: 100;
+  box-sizing: border-box;
+}
+
+
+
+//mixin
+@mixin respond($breakpoint) {
+   @if $breakpoint == phone {
+    @media only screen and (max-width: 600px) {
+      @content;
+    }
+  } 
+
+  @if $breakpoint == tab-port {
+    @media screen and (max-width: 900px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 1200px) {
+      
+    }
+  }
+
+  @if $breakpoint == desktop {
+    @media only screen and (max-width: 1800px) {
+      
+    }
+  }
+}
+
+.container {
+  max-width: 114rem;
+  padding: 0.8rem;
+
+  @include respond(phone) {
+    padding: 0 2rem;
+  }
+}
+
+.active {
+  color: #fff !important;
+  font-size: 22px;
+  border-bottom: 3px solid  $idylle-color;
+
+  
+  @include respond(tab-port) {
+    background-color: #c7ae94 !important;
+    color: #333 !important;
+  }
+}

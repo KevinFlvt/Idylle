@@ -1,0 +1,65 @@
+@import '../../index.scss';
+
+.histoire {
+    display: flex;
+    margin: 0 15%;
+    height: auto;
+
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        @include respond(tab-port) {
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-bottom: 10%;
+        }
+
+
+        .col {
+            margin-right: 5%;
+            line-height: 26px;
+
+            .separate {
+                @include line;
+
+                @include respond(tab-port){
+                    display: none;
+                }
+
+            }
+
+            h1 {
+                font-size: 44px;
+                line-height: 44px;
+                font-weight: 500;
+                margin-bottom: 5%;
+
+                @include respond(tab-port){
+                    font-size: 28px;
+                    font-weight: 400;
+                    margin-bottom: -1%;
+                }
+            }
+
+            p {
+                @include respond(tab-port) {
+                    font-size: 14px;
+                    margin-bottom: -7%;
+                }
+            }
+
+            img {
+                height: 700px;
+                width: 550px;
+
+                @include respond(tab-port) {
+                    @include photo-phone;
+                }
+            }
+        }
+    }
+}
