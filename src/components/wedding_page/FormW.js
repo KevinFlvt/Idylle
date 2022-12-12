@@ -21,7 +21,7 @@ const FormW = () => {
 
                 <div className="radioRow">
                     <div className="left">
-                        <label htmlFor="prestation">Prestation souhaitée : </label>
+                        <label htmlFor="prestation">Prestation souhaitée </label>
                     </div>
                     <div className="right">
                         <label htmlFor="prestation">
