@@ -28,9 +28,9 @@ const Footer = () => {
                     <div className="col">
                         <h3>Contactez-nous</h3>
                         <ul className="unstyle">
-                            <li><Link to='reservation'>Réservez votre prestation ici</Link></li>
-                            <li>E-mail: idylle.events@gmail.com</li>
+                            <li>E-mail: idylle.events@gmail.com</li>     
                             <li>Téléphone: 0690 74 69 31</li>
+                            <li><Link to='reservation'>Formulaire de réservation</Link></li>
                         </ul>
                     </div>
 
