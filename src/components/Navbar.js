@@ -20,18 +20,18 @@ const Navbar = ({ toggleHam }) => {
                 </li>
 
                 <li className="navbar__list__item">
-                    <NavLink className='navbar__link' to ='/prestylles'>
-                        Prest'ylles <i> <MdOutlineKeyboardArrowDown /></i>
+                    <NavLink className='navbar__link' to ='/pique-nique'>
+                        Pique-Nique <i> <MdOutlineKeyboardArrowDown /></i>
                     </NavLink>
                     <ul className="subMenu">
                         <li className="navbar__list__item">
-                            <NavLink className='navbar__link' to ='/prestylles/toumblak'>Toumblak</NavLink>
+                            <NavLink className='navbar__link' to ='/pique-nique/toumblak'>Toumblak</NavLink>
                         </li>
                         <li className="navbar__list__item">
-                            <NavLink className='navbar__link' to ='/prestylles/kaladja'>Kaladja</NavLink>
+                            <NavLink className='navbar__link' to ='/pique-nique/kaladja'>Kaladja</NavLink>
                         </li>
                         <li className="navbar__list__item">
-                            <NavLink className='navbar__link' to ='/prestylles/mennde'>Menndé</NavLink>
+                            <NavLink className='navbar__link' to ='/pique-nique/mennde'>Menndé</NavLink>
                         </li>
 
                     </ul>

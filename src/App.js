@@ -1,8 +1,8 @@
 import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Prestylle from './pages/Prestylle';
-import Toumblak from './pages/Toumblak';
+/* import Prestylle from './pages/Prestylle';
+ */import Toumblak from './pages/Toumblak';
 import Kaladja from './pages/Kaladja';
 import Mennde from './pages/Mennde';
 import Wedding from './pages/Wedding';
@@ -10,7 +10,7 @@ import Wedding from './pages/Wedding';
 import EventPrive from './pages/EventPrive';
 import EventPro from './pages/EventPro';
 import EventBoutique from './pages/EventBoutique';
-/* import PiqueNique from './pages/PiqueNique'; */
+import PiqueNique from './pages/PiqueNique';
 import Portfolio from './pages/Portfolio';
 /* import Faq from './pages/Faq'; */
 import Contact from './pages/Contact';
@@ -27,10 +27,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/prestylles' element = {<Prestylle />} />
-            <Route path='/prestylles/toumblak' element = {<Toumblak />} />
-            <Route path='/prestylles/kaladja' element = {<Kaladja />} />
-            <Route path='/prestylles/mennde' element = {<Mennde />} />
+
+          <Route path='/pique-nique' element = {<PiqueNique />} />
+            <Route path='/pique-nique/toumblak' element = {<Toumblak />} />
+            <Route path='/pique-nique/kaladja' element = {<Kaladja />} />
+            <Route path='/pique-nique/mennde' element = {<Mennde />} />
             <Route path='/wedding-planner' element= {<Wedding /> } />
           
           {/* Evenement privé */}

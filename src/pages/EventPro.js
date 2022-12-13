@@ -39,7 +39,7 @@ const EventPro = () => {
                 <div className='imgLeft'>
                     <img src={img1} alt=""/>
                     <p>
-                        <h1>Titre Boutique</h1>
+                        <h1>Séminaire</h1>
                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod deserunt dolorem magni omnis dicta voluptate exercitationem, sequi itaque libero labore dignissimos repellat error repudiandae culpa veniam distinctio pariatur? Recusandae!</div><br />
                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum quaerat nemo qui consequatur id, dolor maiores in reprehenderit, recusandae veritatis voluptates. Laborum quia pariatur ea dolores veniam perspiciatis a.</div>
                     </p>
@@ -47,7 +47,7 @@ const EventPro = () => {
 
                 <div className='imgRight'>
                     <p>
-                        <h1>Titre Boutique</h1>
+                        <h1>Décoration saisonière</h1>
                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod deserunt dolorem magni omnis dicta voluptate exercitationem, sequi itaque libero labore dignissimos repellat error repudiandae culpa veniam distinctio pariatur? Recusandae!</div><br />
                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum quaerat nemo qui consequatur id, dolor maiores in reprehenderit, recusandae veritatis voluptates. Laborum quia pariatur ea dolores veniam perspiciatis a.</div>
                     </p>
@@ -57,7 +57,7 @@ const EventPro = () => {
                 <div className='imgLeft'>
                     <img src={img3} alt="" />
                     <p>
-                        <h1>Titre Boutique</h1>
+                        <h1>Inauguration</h1>
                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod deserunt dolorem magni omnis dicta voluptate exercitationem, sequi itaque libero labore dignissimos repellat error repudiandae culpa veniam distinctio pariatur? Recusandae!</div><br />
                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum quaerat nemo qui consequatur id, dolor maiores in reprehenderit, recusandae veritatis voluptates. Laborum quia pariatur ea dolores veniam perspiciatis a.</div>
                     </p>
