@@ -1,8 +1,7 @@
 import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-/* import Prestylle from './pages/Prestylle';
- */import Toumblak from './pages/Toumblak';
+import Toumblak from './pages/Toumblak';
 import Kaladja from './pages/Kaladja';
 import Mennde from './pages/Mennde';
 import Wedding from './pages/Wedding';
@@ -12,7 +11,6 @@ import EventPro from './pages/EventPro';
 import EventBoutique from './pages/EventBoutique';
 import PiqueNique from './pages/PiqueNique';
 import Portfolio from './pages/Portfolio';
-/* import Faq from './pages/Faq'; */
 import Contact from './pages/Contact';
 import Error404 from './pages/Error404';
 import Blog from './pages/Blog';

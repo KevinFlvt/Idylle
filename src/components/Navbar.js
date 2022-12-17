@@ -39,13 +39,13 @@ const Navbar = ({ toggleHam }) => {
 
                 <li className="navbar__list__item">
                     <NavLink className='navbar__link' to ='/evenements-prives'>
-                        Évènements privés
+                        Évènements privés <i> <MdOutlineKeyboardArrowDown /></i>
                     </NavLink>
                 </li>
 
                 <li className="navbar__list__item">
                     <NavLink className='navbar__link' to ='/evenements-professionels'>
-                        Évènements pro 
+                        Évènements pro <i> <MdOutlineKeyboardArrowDown /></i>
                     </NavLink>
                 </li>
 

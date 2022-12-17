@@ -15,8 +15,8 @@
     
             .col {
                 img {
-                    height: 180px;
-                    width: 350px;
+                    height: 140px;
+                    width:  300px;
                 }
     
                 .unstyle {
@@ -75,7 +75,7 @@
         a {
             margin: auto 20px;
             text-decoration: none;
-            color: #222;
+            color: #fff;
         }
 
         @include respond(tab-port) {
