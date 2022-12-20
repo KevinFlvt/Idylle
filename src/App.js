@@ -17,8 +17,6 @@ import Blog from './pages/Blog';
 import Single from './components/blog_page/blog_single/Single';
 import WeddingP from './components/portfolio_page/photo_wedding/WeddingP';
 
-
-
 function App() {
   return (
     <div className="App">

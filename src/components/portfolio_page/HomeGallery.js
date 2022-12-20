@@ -1,7 +1,7 @@
 import React from 'react';
 import K from '../../medias/Kaladja.jpg';
 import M from '../../medias/Mennde.jpg';
-import T from '../../medias/Toumblak.jpg';
+import T from '../../medias/eventPri/anniversaire.jpg';
 import W from '../../medias/Wedding planner.jpg';
 
 import '../../style/components/portfolio_page/HomeGallery.scss';
@@ -25,6 +25,10 @@ const HomeGallery = () => {
                 <div className="content" data-aos="fade-right">
                     <img src={K} alt="" />
                     <h4>PIQUE-NIQUE</h4>
+
+                    <div className="caption">
+                        <h4>Pour des moments conviviales !</h4>
+                    </div>
                 </div>
 
                 <div className="content" data-aos="fade-left">
@@ -32,18 +36,26 @@ const HomeGallery = () => {
                     <h4>ANNIVERSAIRE</h4>
 
                     <div className="caption">
-                        <h4>Des anniversaires inoubliables</h4>
+                        <h4>Des anniversaires inoubliables !</h4>
                     </div>
                 </div>
 
                 <div className="content" data-aos="fade-right">
                     <img src={M} alt="" />
                     <h4>BOUTIQUE</h4>
+
+                    <div className="caption">
+                        <h4>Boutique la fèmé</h4>
+                    </div>
                 </div>
 
                 <div className="content" data-aos="fade-left"> 
                     <Link to="/portfolio/mariage"><img src={W} alt="" /> </Link>
                     <h4>MARIAGE</h4>
+
+                    <div className="caption">
+                        <h4>Mariages gravés à jamais</h4>
+                    </div>
                 </div> 
 
             </div>

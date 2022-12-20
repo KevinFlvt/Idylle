@@ -11,7 +11,7 @@ import {RiArrowDropRightLine} from 'react-icons/ri';
 const NewBlog = () => {
     return (
         <div className='newBlog'>
-            <h1>L'idylle c'est aussi un blog ! </h1>
+            <h1 style={{textTransform:'uppercase'}}>L'idylle c'est aussi un blog ! </h1>
 
             <div className="row">
                 <div className="content">

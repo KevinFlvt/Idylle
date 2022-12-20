@@ -33,7 +33,7 @@ $idylle-style : 'Parisienne', cursive;
 }
 
 @mixin background {
-  background: no-repeat center linear-gradient(rgba(40, 40, 40, 0.35), rgba(66, 66, 59, 0.1)), url('../medias/background.png');
+  background: no-repeat center linear-gradient(rgba(40, 40, 40, 0.35), rgba(66, 66, 59, 0.8)), url('../medias/background.png');
   background-size: cover;
   background-attachment: fixed;
 }

@@ -36,7 +36,7 @@ const Introduction = () => {
                         <div className="info">
                             <h1>Pique-Nique</h1>
                             <p>Une envie d'évasion coocooning ? Notre formule est donc faite pour vous. Pourquoi pas partager ce moment avec vos proches.</p>
-                            <Link to='/prestylles'>Voir plus</Link>
+                            <Link to='/pique-nique'>Voir plus</Link>
                         </div>                        
                     </div>
                     
@@ -48,7 +48,7 @@ const Introduction = () => {
                         <div className="info">
                             <h1>Évènements Pro</h1>
                             <p>Menndé est la formule pour nos amoureux. Elle vous permet de créer sur mesure une atmosphère idyliique et romantque pour l'être chère</p>
-                            <Link to='/prestylles'>Voir plus</Link>
+                            <Link to='/evenements-professionels'>Voir plus</Link>
                         </div>
                     </div>
 
@@ -59,7 +59,7 @@ const Introduction = () => {
                         <div className="info">
                             <h1>Évènement Privé</h1>
                             <p>La vie mérite d'être célébrée, alors pourquoi attendre une occasion spéciale ?</p>
-                            <Link to='/prestylles'>Voir plus</Link>
+                            <Link to='/evenements-prives'>Voir plus</Link>
                         </div>
                     </div>
 
