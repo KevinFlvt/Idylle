@@ -25,7 +25,7 @@ const HamMenu = ({
                     </li>
 
                     <li className="ham__list__item">
-                        <NavLink className='ham__link' to='/prestylles'>Prest'ylles</NavLink>
+                        <NavLink className='ham__link' to='/pique-nique'>Pique-Nique</NavLink>
                     </li>
 
                     <li className="ham__list__item">

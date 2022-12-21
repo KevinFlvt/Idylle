@@ -12,6 +12,12 @@
         align-items: center;
         justify-content: center;
 
+        @include respond(tab-land){
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-bottom: 10%;
+        }
+
         @include respond(tab-port) {
             flex-direction: column;
             flex-wrap: wrap;
@@ -38,26 +44,36 @@
                 font-weight: 500;
                 margin-bottom: 5%;
 
+                @include respond(tab-land){
+                    font-size: 34px;
+                    font-weight: 600;
+                    margin-top: 1rem;
+                }
+
                 @include respond(tab-port){
-                    font-size: 28px;
+                    font-size: 29px;
                     font-weight: 400;
                     margin-bottom: -1%;
                 }
             }
 
             p {
+
                 @include respond(tab-port) {
-                    font-size: 14px;
+                    font-size: 16px;
                     margin-bottom: -7%;
                 }
             }
 
             img {
-                height: 700px;
-                width: 550px;
+                width: 500px;
 
-                @include respond(tab-port) {
-                    @include photo-phone;
+                 @include respond(tab-port) {
+                    width: 100px;
+                }
+
+                @include respond(tab-land){
+                    width: 300px;
                 }
             }
         }

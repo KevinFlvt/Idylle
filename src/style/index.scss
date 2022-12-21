@@ -47,7 +47,7 @@ $idylle-style : 'Parisienne', cursive;
 }
 
 html {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   scroll-behavior: smooth;
   font-size: 90%;
@@ -82,7 +82,7 @@ body {
 
   @if $breakpoint == tab-land {
     @media only screen and (max-width: 1200px) {
-      
+      @content;
     }
   }
 

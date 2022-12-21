@@ -23,7 +23,7 @@ const Introduction = () => {
             <section className='section1'>
                 <div className='section1__title' data-aos="zoom-in">
                     <h1>L'idylle Event</h1>
-                    <h4>Notre souhait ? Vous transportez à travers nos prest’ylles !</h4>
+                    <h4>Notre souhait ? Vous transportez à travers nos prest'ylles !</h4>
                 </div>
             </section>
 
