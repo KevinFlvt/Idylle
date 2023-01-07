@@ -5,6 +5,16 @@
     padding: 2rem 4rem;
     text-align: center;;
     text-transform: uppercase;
+    width: 102%;
+    align-items: center;
+ 
+
+    .logoDesktop {
+
+        @include respond(tab-port) {
+            display: none;
+        }
+    }
 
     &__list {
         display: flex;
@@ -14,12 +24,22 @@
         height: 100%;
         padding-left: 3rem;
 
+        
+        @include respond(tab-land) {
+            padding-left: 1rem;
+        }
+
         &__item {
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 1.4rem;
+            font-size: 1.3rem;
+            margin: 0 1rem;
 
+
+            @include respond(tab-land) {
+                font-size: 99%;
+            }
 
             @include respond(tab-port) {
                 display: none;
@@ -28,13 +48,23 @@
 
             .subMenu{
                 display: none;
+                border-radius: 1px;
+
+                li {
+                    padding: 0.1rem;
+                    margin-left: -15px;
+
+                    &:hover {
+                        background-color: #c1c1c119
+                    }
+                }
             }
 
-            &:hover ul {
+            &:hover .subMenu, .subMenu:hover {
                 z-index: 9999;
-                display: list-item !important;
+                display: block;
                 position: absolute;
-                margin: 150px 0 0 -10px;
+                margin-top: 120px;
                 list-style: none;
             }
         }
@@ -60,6 +90,11 @@
             font-size: 1.3rem;
             transition: .3s ease-in-out;
 
+            @include respond(tab-land){
+                padding: .1em .2em;
+                font-size: 1.1rem;
+            }
+
             &:hover {
                 color: #fff;
                 text-decoration: underline;
@@ -74,10 +109,16 @@
 
         transition: .3s ease-in-out;
 
+        @include respond(tab-land){
+            height: 70%;
+            width: 60%;
+        }
+
         @include respond(tab-port) {
-            height: 115px;
-            width: 250px;
+            height: 100px;
+            width: 100%;
             margin: 0 auto;
+            margin-bottom: -9%;
         }
 
 
@@ -87,7 +128,32 @@
         }
     }
 
-    &__button {
+    .logoPhone {
+        display: none;
+
+        @include respond(tab-port) {
+            display: block;
+            text-align: center;
+            position: relative;
+            top: 10px;
+            height: 100px;
+        }
+    }
+
+    &__hamburger {
+        display: none;
+
+        @include respond(tab-port){
+            display: block;
+            z-index: 9999;
+            cursor: pointer;
+            color: #e7ccaf;
+            position: relative;
+            top: 20px;
+        }
+    }
+
+/*     &__button {
         display: none;
 
         @include respond(tab-port) {
@@ -118,5 +184,5 @@
                 }
             }
         }
-    }
+    } */
 }

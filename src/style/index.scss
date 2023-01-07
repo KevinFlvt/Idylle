@@ -108,6 +108,10 @@ body {
   border-bottom: 3px solid  $idylle-color;
 
   
+  @include respond(tab-land) {
+    font-size: 1.1rem;
+}
+
   @include respond(tab-port) {
     background-color: #c7ae94 !important;
     color: #333 !important;
