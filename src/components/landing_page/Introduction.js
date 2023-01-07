@@ -9,8 +9,6 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
-
-
 const Introduction = () => {
 
     useEffect(() => {
@@ -31,8 +29,7 @@ const Introduction = () => {
                 <div className="section2__row">
                     <div className="card">
                         <img src={Picnic} alt="Pique-nique" />
-                        <br /> 
-                        <Link to='/prestylles'>Pique-Nique</Link>
+                        <Link to='/pique-nique'> -Pique-Nique- </Link> 
                         <div className="info">
                             <h1>Pique-Nique</h1>
                             <p>Une envie d'évasion coocooning ? Notre formule est donc faite pour vous. Pourquoi pas partager ce moment avec vos proches.</p>
@@ -43,11 +40,10 @@ const Introduction = () => {
 
                     <div className="card">
                         <img src={Pro} alt="Professionel" />
-                        <br /> 
-                        <Link to='/'>Pro</Link>
+                        <Link to='/evenements-professionels'>-Pro-</Link>
                         <div className="info">
                             <h1>Évènements Pro</h1>
-                            <p>Menndé est la formule pour nos amoureux. Elle vous permet de créer sur mesure une atmosphère idyliique et romantque pour l'être chère</p>
+                            <p>Vous voulez mettre en valeur votre entreprise lors de votre prochain évènement ? Faites confiance à l'idylle et laissez-nous vous aider à créer l'atmosphère idéale !</p>
                             <Link to='/evenements-professionels'>Voir plus</Link>
                         </div>
                     </div>
@@ -55,10 +51,10 @@ const Introduction = () => {
                     <div className="card">
                         <img src={Prive} alt="Prive" />
                         <br /> 
-                        <Link to='/'>Privé</Link>
+                        <Link to='/evenements-prives'>-Privé-</Link>
                         <div className="info">
                             <h1>Évènement Privé</h1>
-                            <p>La vie mérite d'être célébrée, alors pourquoi attendre une occasion spéciale ?</p>
+                            <p>Que vous souhaitiez une décoration romantique pour votre mariage ou une ambiance festive pour votre anniversaire, nous créons votre décoration sur mesure. </p>
                             <Link to='/evenements-prives'>Voir plus</Link>
                         </div>
                     </div>
@@ -66,7 +62,7 @@ const Introduction = () => {
                     <div className="card">
                         <img src={Wedding} alt="Wedding Planiing" />
                         <br /> 
-                        <Link to='/wedding-planner'>Wedding</Link>
+                        <Link to='/wedding-planner'>-Wedding-</Link>
                         <div className="info">
                             <h1>Wedding Planner</h1>
                             <p>De la recherche à la coordination de tous les prestataires, nous serons le chef d’orchestre de votre mariage !</p>

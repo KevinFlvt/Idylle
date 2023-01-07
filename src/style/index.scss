@@ -85,12 +85,6 @@ body {
       @content;
     }
   }
-
-  @if $breakpoint == desktop {
-    @media only screen and (max-width: 1800px) {
-      
-    }
-  }
 }
 
 .container {
