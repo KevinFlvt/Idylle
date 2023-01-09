@@ -3,12 +3,12 @@ import Footer from '../components/Footer';
 import Histoire from '../components/landing_page/Histoire';
 import Introduction from '../components/landing_page/Introduction';
 import NewBlog from '../components/landing_page/NewBlog';
-import PortfolioHome from '../components/landing_page/PortfolioHome';
 import Naviguation from '../components/Naviguation';
-
+import PortfHome from '../components/landing_page/PortHome';
 import { FaInstagram } from 'react-icons/fa';
 
 import '../style/pages/Home.scss';
+
 
 const Home = () => {
     return (
@@ -20,7 +20,7 @@ const Home = () => {
 
             <Introduction />
             <Histoire />
-            <PortfolioHome />
+            <PortfHome />
             <NewBlog />
             
             <Footer />

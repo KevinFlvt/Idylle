@@ -24,6 +24,15 @@
             &__image {
                 height: 95%;
                 width: 95%;
+
+                @include respond(tab-port){
+                    height: 70%;
+                    width: 70%;
+                }
+            }
+
+            @include respond(phone){
+                margin-bottom: 20px;
             }
 
             &__icon {

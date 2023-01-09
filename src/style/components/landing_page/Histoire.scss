@@ -29,15 +29,6 @@
             margin-right: 5%;
             line-height: 26px;
 
-            .separate {
-                @include line;
-
-                @include respond(tab-port){
-                    display: none;
-                }
-
-            }
-
             h1 {
                 font-size: 44px;
                 line-height: 44px;
@@ -53,7 +44,8 @@
                 @include respond(tab-port){
                     font-size: 29px;
                     font-weight: 400;
-                    margin-bottom: -1%;
+                    margin-bottom: 2%;
+                    width: 90%;
                 }
             }
 
