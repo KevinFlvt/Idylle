@@ -7,9 +7,16 @@
         text-align: center;
         border-bottom: 3px solid #fff;
         width: 15%;
+
+        @include respond(tab-port){
+            width: 23%;
+            margin-top: 12px;
+        }
+    
+        @include respond(phone){
+            width: 35%;
+        }
     }
-
-
 
     .model {
         width: 100%;
@@ -21,7 +28,7 @@
         justify-content: center;
         align-items: center;
         background-color: rgba(17, 17, 17, 0.952);
-        transition: opacity .4s ease, visibility .4s easen transform 
+        transition: opacity .4s ease, visibility .4s ease transform 
         5s ease-in-out;
         visibility: hidden;
         opacity: 0;
@@ -39,6 +46,16 @@
            box-sizing: border-box;
            padding: 20px 0 20px; 
            margin: 0 auto;
+
+           @include respond(tab-port){
+            width: 380px;
+            height: 420px;
+           }
+
+           @include respond(phone) {
+            width: 280px;
+            height: 320px;
+           }
         }
     }
 
@@ -54,7 +71,7 @@
                 width: 3rem;
                 height: 3rem;
                 padding: 5px;
-                background-color: rgba(0,0,0,0.4);                
+                background-color: rgba(17, 17, 17, 0.952);                
                 color: #fff;
                 cursor: pointer;
             }
@@ -65,11 +82,23 @@
         margin: 50px auto;
         padding: 10px;
 
+        @include respond(tab-port){
+            margin-top: 30px;
+            width: 85%;
+            position: relative; 
+            left: 3%;
+        }
+
+        @include respond(phone){
+            width: 94%;
+        }
+
         &__row{
             display: flex;
             flex-wrap: wrap;
             width: 100%;
             justify-content: center;
+            align-items: center;
         }
 
         &__content {
@@ -84,6 +113,14 @@
                 width: 300px;
                 object-fit: cover;
 
+                @include respond(tab-port){
+                    height: 280px;
+                }
+        
+                @include respond(phone){
+                    height: 250px;  
+                }
+
                 &:hover{
                     transform:scale(1.1);
                 }
@@ -92,13 +129,66 @@
 
         .callToAction {
             margin: 0 auto;
-            background-color: #fff;
+            background-color: inherit;
             border: none;
             text-decoration: none;
             padding: 15px 15px;
             cursor: pointer;
             position: relative;
             left: 45%;
-        }
+            border-radius: 8px;
+            border: 2px solid $idylle-color;
+            color: #fff;
+            overflow: hidden;
+
+            @include respond(tab-port) {
+                left: 34%;
+            }
+
+            @include respond(phone){
+                left: 20%;
+            }
+
+            &::before {
+                width: 50%;
+                height: 100%;
+                content: "";
+                margin: auto;
+                position: absolute;
+                top: 0%;
+                left: -50%;
+                background: $idylle-color;
+                transition: all 0.5s ease;
+                z-index: -1;
+              }
+              
+              &::after {
+                width: 50%;
+                height: 100%;
+                content: "";
+                margin: auto;
+                position: absolute;
+                top: 0%;
+                left: 100%;
+                background: $idylle-color;
+                transition: all 0.5s ease;
+                z-index: -1;
+              }
+
+              &:hover {
+                font-weight: bolder;
+                font-size: 14px;
+              }
+
+              &:hover:before {
+                top: 0;
+                left: 0;
+              }
+              
+              &:hover:after {
+                top: 0;
+                left: 50%;
+              }
+        } 
     }
 }

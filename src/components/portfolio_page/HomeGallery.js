@@ -27,7 +27,7 @@ const HomeGallery = () => {
                     <h4>PIQUE-NIQUE</h4>
 
                     <div className="caption">
-                        <h4>Pour des moments conviviales !</h4>
+                        <h4>Pour des moments conviviaux !</h4>
                     </div>
                 </div>
 
@@ -50,12 +50,13 @@ const HomeGallery = () => {
                 </div>
 
                 <div className="content" data-aos="fade-left"> 
-                    <Link to="/portfolio/mariage"><img src={W} alt="" /> </Link>
-                    <h4>MARIAGE</h4>
+                    <Link to="/portfolio/mariage"><img src={W} alt="" /> 
+                        <h4>MARIAGE</h4>
 
-                    <div className="caption">
-                        <h4>Mariages gravés à jamais</h4>
-                    </div>
+                        <div className="caption">
+                            <h4>Mariages gravés à jamais</h4>
+                        </div>
+                    </Link>
                 </div> 
 
             </div>
