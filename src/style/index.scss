@@ -1,12 +1,13 @@
 @import '../App.scss';
 
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Noto+Serif&display=swap&family=Dancing+Script&display=swap&family=Signika&display=swap');
 //family=Poppins:wght@300&display=swap    'Poppins', sans-serif;
 
 // Variable globale du code
 $idylle-color : #dcb993;
 $idylle-text : 'Noto Serif', serif;
-$idylle-style : 'Parisienne', cursive;
+$idylle-style : 'Dancing Script', cursive;
+$style-oui : 'Signika', sans-serif;
 
 // Mixins
 @mixin line {

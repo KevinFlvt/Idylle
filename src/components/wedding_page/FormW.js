@@ -50,7 +50,7 @@ const FormW = () => {
                     <p><textarea name="importantPoint" cols="85" rows="5"></textarea></p>
 
                     <p><label htmlFor="dontWant">Avez-vous des éléments que vous ne souhaitez pas voir lors de vos/votre cérémonie(s) ?</label></p>
-                    <p><textarea name="dontwant" cols="85" rows="5"></textarea></p>
+                    <p><textarea name="dontwant" cols="205" rows="5"></textarea></p>
                 </div>
 
                 {/* <p><input type="submit" value="Envoyer" /></p> */}

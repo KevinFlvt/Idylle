@@ -6,7 +6,8 @@
 
     
     h1 {
-        @include title-style;
+        width: 10%;
+        display: none;
 
         @include respond(tab-port) {
             font-size: 42px;

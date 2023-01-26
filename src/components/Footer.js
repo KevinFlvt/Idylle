@@ -11,12 +11,12 @@ const Footer = () => {
         <div className='footer'>
 
             <div className="container">
-                <Link to="/pique-nique"> Pique-Nique </Link>
-                <Link to="/evenements-prives"> évènments privés</Link>
-                <Link to="/evenements-professionels"> évènments pro</Link>
-                <Link to="/portfolio"> portfolio</Link>
+                <Link to="/pique-nique"> PicNic </Link>
+                <Link to="/evenements-prives"> Privés</Link>
+                <Link to="/evenements-professionels"> Professionnel</Link>
+                <Link to="/portfolio"> Portfolio</Link>
                 <Link to="/blog">blog </Link>
-                <Link to="/reservation"> Je réserve</Link>
+                <Link to="/reservation"> Réserver</Link>
             </div>
 
             <hr/>

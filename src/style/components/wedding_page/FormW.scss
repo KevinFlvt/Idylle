@@ -5,7 +5,7 @@
     text-align: center;
 
     h2 {
-        font-style: normal;
+        //font-style: normal;
         margin: auto; 
         text-align: center;
         width: 40%;
@@ -17,6 +17,12 @@
 
         @include respond(tab-port) {
             font-size: 37px;
+        }
+
+        @include respond(phone){
+            font-size: 32px;
+            width: 86%;
+            margin-bottom: 3%;
         }
     }
 
@@ -58,10 +64,22 @@
                 @include respond(tab-port) {
                     width: 100%;
                 }
+
+                @include respond(phone){
+                    font-size: 14px;
+                }
             }
 
             textarea {
-                width: 80%;
+                width: 93%;
+                
+                &:focus {
+                    color: rgb(255, 255, 255);
+                    outline-color: $idylle-color;
+                    box-shadow: -2px -2px 4px $idylle-color;
+                    transition: .1s;
+                    transition-property: box-shadow; 
+                }
 
                 @include respond(tab-port){
                     width: 100%;
@@ -69,8 +87,18 @@
             }
 
             input {
-                padding: .2rem .5rem;
+                padding: 5px;
+                border: 2px solid white;
+                border-radius: 5px;
                 width: 50%;
+
+                &:focus {
+                    color: rgb(255, 255, 255);
+                    outline-color: $idylle-color;
+                    box-shadow: -2px -2px 4px $idylle-color;
+                    transition: .1s;
+                    transition-property: box-shadow;
+                }
 
                 @include respond(tab-port) {
                     width: 100%;
@@ -158,24 +186,39 @@
                 margin-left: 16.5%;
                 margin-right: 26.5%;
 
+                @include respond(phone){
+                    width: 100%;
+                }
+
                 label {
-                    margin-right: 10px;
                     font-size: 18px;
+                    margin-left: 12px;
+
+                    @include respond(phone){
+                        font-size: 14px;
+                        width: 100%;
+                        margin-left: -46%;
+                    }
                 }
             }
 
             .right {
+
+                @include respond(tab-port) {
+                    float: left;
+                    margin-left: 4%;
+                }
+
                 label {
                     margin-left: 20px;
+
+                    @include respond(phone){
+                        font-size: 14px;
+                    }
                 }
             }
 
-            @include respond(tab-port) {
-                .right {
-                    float: left;
-                    margin-left: -20px;
-                }
-            }
+
         }
 
         .textStart {

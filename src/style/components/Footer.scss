@@ -37,7 +37,8 @@
             }
     
             @include respond(phone){
-                font-size: .8rem;
+                font-size: .7rem;
+                width: 100%;
             }
 
             &:hover {
@@ -78,7 +79,8 @@
         }
 
         @include respond(phone){
-            font-size: 9px;
+            font-size: 9px;;
+            width: 85%;
         }
 
         a {
