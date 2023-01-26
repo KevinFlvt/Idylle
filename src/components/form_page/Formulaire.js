@@ -40,7 +40,7 @@ const Formulaire = () => {
 		
 		        <p><label for="place">Lieu : </label> 
                 <input type="text" name="place" id="place" required placeholder="Lieu de l'évènement"/><br/> 
-                <span id="propal">Afin de vous proposez un décor sur mesusre nous vous invitons à nous transmettre des photos et vidéos du lieu par WhatsApp au <strong> +590 690 74 69 31</strong></span></p>
+                <span className="propal">Afin de vous proposez un décor sur mesusre nous vous invitons à nous transmettre des photos et vidéos du lieu par WhatsApp au <strong> +590 690 74 69 31</strong></span></p>
 		
 		        <p><label for="nb_invit">Nombre d'invités : </label> 
                 <input type="number" name="nb-invit" id="nb_invit" required placeholder="Quel est le nombre d'invité ?"/></p>
@@ -123,7 +123,18 @@ const Formulaire = () => {
                 <p><label for="how">Comment avez vous connue l'Idylle ? </label> 
                 <input type="text" name="how" id="how" placeholder='Via Instagram'/></p>
 		 
-        		<p> <input type="submit" name="submit" value="Envoyer"/> </p>
+        		{/* <p> <input type="submit" name="submit" value="Envoyer"/> </p> */}
+                <button>
+                    <div class="svg-wrapper-1">
+                        <div class="svg-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                        </svg>
+                        </div>
+                    </div>
+                    <span>Envoyer</span>
+                </button>
             </form>
         </div>    
     </div>

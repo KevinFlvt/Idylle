@@ -58,7 +58,7 @@
             }
 
             img {
-                width: 500px;
+                width: 450px;
 
                  @include respond(tab-port) {
                     width: 100px;
