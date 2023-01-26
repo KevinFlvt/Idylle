@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Idylle/static/css/main.f31d6d9c.css",
+    "main.js": "/Idylle/static/js/main.325c2176.js",
+    "static/media/Celest-Kitchen.jpg": "/Idylle/static/media/Celest-Kitchen.a75aae4862a451c7c4c2.jpg",
+    "static/media/Celest-Office.jpg": "/Idylle/static/media/Celest-Office.5957137d1f66e08c2cda.jpg",
+    "static/media/background.png": "/Idylle/static/media/background.bb0b835c0c0c32bd6d01.png",
+    "static/media/idylle_cadre_flou.jpg": "/Idylle/static/media/idylle_cadre_flou.18aefc99534483cbccf4.jpg",
+    "static/media/Wedding planner.jpg": "/Idylle/static/media/Wedding planner.13cf474812d35d42ebf7.jpg",
+    "static/media/Picnic.jpg": "/Idylle/static/media/Picnic.b06de8df1df57fdba750.jpg",
+    "static/media/Celest-salon.jpg": "/Idylle/static/media/Celest-salon.7bcdb03d631614ada697.jpg",
+    "static/media/Wedding_Planner_Home.jpg": "/Idylle/static/media/Wedding_Planner_Home.4dbc543ed1dd00f1db18.jpg",
+    "static/media/Event_Pro.jpg": "/Idylle/static/media/Event_Pro.b0a2c5e77f8a8d3e9482.jpg",
+    "static/media/naila-ballon.jpg": "/Idylle/static/media/naila-ballon.1045cd2f06fc91f8492a.jpg",
+    "static/media/Toumblak.jpg": "/Idylle/static/media/Toumblak.75b704add434dba1f732.jpg",
+    "static/media/Event_Privee.jpg": "/Idylle/static/media/Event_Privee.aefb3192f82a228b4494.jpg",
+    "static/media/Mennde.jpg": "/Idylle/static/media/Mennde.2f1e04a33a9d7705aed2.jpg",
+    "static/media/Kaladja.jpg": "/Idylle/static/media/Kaladja.8beb82709dbe9dd07c97.jpg",
+    "static/media/Logo beige.png": "/Idylle/static/media/Logo beige.5c6ac5ca06438ffb91b2.png",
+    "static/media/demande_mariage.jpg": "/Idylle/static/media/demande_mariage.c2b13d8d17ab77296eb9.jpg",
+    "static/media/wedding1.jpg": "/Idylle/static/media/wedding1.6b9f1fb235deb6cdb923.jpg",
+    "static/media/wedding6.jpg": "/Idylle/static/media/wedding6.a878580194089529ff79.jpg",
+    "static/media/wedding3.jpg": "/Idylle/static/media/wedding3.bca757eef10f2624fb80.jpg",
+    "index.html": "/Idylle/index.html",
+    "main.f31d6d9c.css.map": "/Idylle/static/css/main.f31d6d9c.css.map",
+    "main.325c2176.js.map": "/Idylle/static/js/main.325c2176.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f31d6d9c.css",
+    "static/js/main.325c2176.js"
+  ]
+}
