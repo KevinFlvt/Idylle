@@ -21,8 +21,12 @@
         justify-content: space-between;
         align-items: center;
         list-style: none;
-        height: 100%;
+        height: auto;
         padding-left: 3rem;
+        width: 108%;
+        position: relative;
+        left: -5%;
+
 
         
         @include respond(tab-land) {
@@ -31,14 +35,16 @@
 
         &__item {
             display: flex;
+            flex-wrap: nowrap;
             justify-content: center;
             align-items: center;
             font-size: 1.3rem;
-            margin: 0 1rem;
+            margin: auto;
+
 
 
             @include respond(tab-land) {
-                font-size: 99%;
+                font-size: 84%;
             }
 
             @include respond(tab-port) {
@@ -52,7 +58,6 @@
 
                 li {
                     padding: 0.1rem;
-                    //margin-left: -5px;
 
                     &:hover {
                         background-color: #c1c1c119
@@ -77,12 +82,16 @@
         color: #fff;
         text-decoration: none;
         transition: .5s ease-in-out;
+
+        svg {
+            margin: 0 1px;
+        }
    
         &:hover {
             color: #f2efe3;
             text-decoration: none;
             transition: .4s ease-in-out;
-            font-size: 20px;
+            font-size: 19px;
         }
 
         button {

@@ -2,12 +2,13 @@ import React from 'react';
 import Naviguation from '../components/Naviguation';
 import Footer from '../components/Footer';
 
-import img1 from '../medias/eventPri/anniversaire.jpg';
-import img2 from '../medias/eventPri/demande_mariage.jpg';
-import img3 from '../medias/eventPri/evjf.jpg';
-import img4 from '../medias/eventPri/fete_naissance.jpg';
+import img1 from '../medias/eventPri/anniversaire.png';
+import img2 from '../medias/eventPri/demande_mariage.png';
+import img3 from '../medias/eventPri/evjf.png';
+import img4 from '../medias/eventPri/fete_naissance.png';
 
 import '../style/pages/EventPrive.scss';
+import { NavLink } from 'react-router-dom';
 
 const EventPrive = () => {
 
@@ -18,7 +19,7 @@ const EventPrive = () => {
             <h1 className='title'>Évènements Privés</h1>
 
             <p className='paragraphe'>L'idylle vous accompagne aussi dans vos évènements privés! Anniversaire, première communion, annonce de fiancaille n'attendez plus !
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur esse ad, consectetur porro asperiores beatae natus nulla quos? Non, quam!</p>
+            </p>
 
             <div className="container">
 
@@ -84,9 +85,8 @@ const EventPrive = () => {
             </div>
 
             <div className="you">
-                <h1>Nous sommes à votre disposition pour vos évènements</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo veniam sequi, unde</p>
-                <button>Contactez-nous</button>
+                <p>Laissez-vous tentez par nos Prest'ylles !</p>
+                <button><NavLink to='/reservation'>Contactez-nous</NavLink></button>
             </div>
 
 

@@ -54,7 +54,7 @@ const Introduction = () => {
                         <Link to='/evenements-prives'>-Privé-</Link>
                         <div className="info">
                             <h1>Évènement Privé</h1>
-                            <p>Que vous souhaitiez une décoration romantique pour votre mariage ou une ambiance festive pour votre anniversaire, nous créons votre décoration sur mesure. </p>
+                            <p>Que vous souhaitiez une décoration romantique pour faire votre demande en mariage ou une ambiance festive pour votre anniversaire, nous créons votre décoration sur mesure. </p>
                             <Link to='/evenements-prives'>Voir plus</Link>
                         </div>
                     </div>

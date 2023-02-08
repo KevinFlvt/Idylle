@@ -1,7 +1,7 @@
 import React from 'react';
-import K from '../../medias/Kaladja.jpg';
-import M from '../../medias/Mennde.jpg';
-import T from '../../medias/eventPri/anniversaire.jpg';
+import K from '../../medias/Picnic_Dejeuner.jpeg';
+import M from '../../medias/Event_Pro.jpg';
+import T from '../../medias/eventPri/anniversaire.png';
 import W from '../../medias/Wedding planner.jpg';
 
 import '../../style/components/portfolio_page/HomeGallery.scss';
@@ -24,7 +24,7 @@ const HomeGallery = () => {
 
                 <div className="content" data-aos="fade-right">
                     <img src={K} alt="" />
-                    <h4>PIQUE-NIQUE</h4>
+                    <h4>pique-nique</h4>
 
                     <div className="caption">
                         <h4>Pour des moments conviviaux !</h4>
@@ -33,7 +33,7 @@ const HomeGallery = () => {
 
                 <div className="content" data-aos="fade-left">
                     <img src={T} alt="" />
-                    <h4>ANNIVERSAIRE</h4>
+                    <h4>évènements privés</h4>
 
                     <div className="caption">
                         <h4>Des anniversaires inoubliables !</h4>
@@ -42,7 +42,7 @@ const HomeGallery = () => {
 
                 <div className="content" data-aos="fade-right">
                     <img src={M} alt="" />
-                    <h4>BOUTIQUE</h4>
+                    <h4>évènements professionnels</h4>
 
                     <div className="caption">
                         <h4>Boutique la fèmé</h4>
@@ -51,10 +51,10 @@ const HomeGallery = () => {
 
                 <div className="content" data-aos="fade-left"> 
                     <Link to="/portfolio/mariage"><img src={W} alt="" /> 
-                        <h4>MARIAGE</h4>
+                        <h4>Wedding</h4>
 
                         <div className="caption">
-                            <h4>Mariages gravés à jamais</h4>
+                            <h4>Votre mariage gravé à jamais</h4>
                         </div>
                     </Link>
                 </div> 

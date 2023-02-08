@@ -1,5 +1,5 @@
 import React from 'react';
-import me from '../../medias/naila-ballon.jpg';
+import me from '../../medias/photo_presentation.jpeg';
 
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 

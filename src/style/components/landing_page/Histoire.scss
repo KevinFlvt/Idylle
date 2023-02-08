@@ -29,6 +29,10 @@
             margin-right: 5%;
             line-height: 26px;
 
+            @include respond(tab-land) {
+                margin: 0 auto;
+            }
+
             h1 {
                 font-size: 44px;
                 line-height: 44px;
@@ -59,13 +63,20 @@
 
             img {
                 width: 450px;
+                box-shadow: 0px 0px 150px 50px rgba(0,0,0,0.35);
 
                  @include respond(tab-port) {
                     width: 100px;
                 }
 
                 @include respond(tab-land){
-                    width: 300px;
+                    width: 450px;
+                }
+
+                @include respond(phone){
+                    width: 250px;
+                    height: 275px;
+                    margin: 0 auto;
                 }
             }
         }

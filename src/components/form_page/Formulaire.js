@@ -9,7 +9,9 @@ const Formulaire = () => {
 
             <div className="title">
                 <h1>Réservez votre prestation</h1> <br />
-                <h3>On vous recontactera dans les plus brefs délais</h3>
+                <p>Merci de l'intérêt que vous nous portez. Nous vous contacterons dans les plus brefs délais. <br />
+                   Merci de votre compréhension.<br />
+                   L'idylle <span>&#129498;&#127995;</span></p>
             </div>
 
             <div className="container">
@@ -34,44 +36,25 @@ const Formulaire = () => {
                 <input type="date" name="event" id="event" required/></p>
 		
 		        <p><label for="h_deb">Heure de début : </label>
-                <input type="time" name="h_deb" id="h_deb" required/> 
-                {/* <label for="h_fin">Heure approximative de fin : </label>
-                <input type="time" name="" id="h_fin" required/> */}</p>
+                <input type="time" name="h_deb" id="h_deb" required/></p>
+
+                <p><label for="h_fin">Heure approximative de fin : </label>
+                <input type="time" name="" id="h_fin" required/> </p>
 		
 		        <p><label for="place">Lieu : </label> 
-                <input type="text" name="place" id="place" required placeholder="Lieu de l'évènement"/><br/> 
-                <span className="propal">Afin de vous proposez un décor sur mesusre nous vous invitons à nous transmettre des photos et vidéos du lieu par WhatsApp au <strong> +590 690 74 69 31</strong></span></p>
+                <input type="text" name="place" id="place" required placeholder="Lieu de l'évènement"/></p>
+                <p className="propal"><span>Afin de vous proposez un décor sur mesusre nous vous invitons à nous transmettre des photos et vidéos du lieu par WhatsApp au <strong> +590 690 74 69 31</strong></span></p>
 		
 		        <p><label for="nb_invit">Nombre d'invités : </label> 
                 <input type="number" name="nb-invit" id="nb_invit" required placeholder="Quel est le nombre d'invité ?"/></p>
-
-{/* 				<p><label for="type_event">Type de prestations :</label> <br/> 
-                <span>Veuillez choisir une prestation</span></p> */}
 
                 <p><label for="type_presta">Type de prestations :</label>
                 <select name="type_presta" id="type_presta">
                     <option value="picnic">Pique-Nique</option>
                     <option value="event">Évènement</option>
                     <option value="ballon">Ballon Desinger</option>
+                    <option value="wedding">Wedding Planner</option>
                 </select></p>
-
-{/* 		        <div id="type_presta">
-			        <div>
-				        <input type="checkbox" id="picnic" name="type_event" value="picnic" />
-				        <label for="picnic">Pique nique</label>
-			        </div>
-
-                    <div>
-                        <input type="checkbox" id="event" name="type_event" value="event"/>
-                        <label for="event">Évènement</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" id="ballon" name="type_event" value="ballon"/>
-                        <label for="ballon">Ballon Designer</label>
-                    </div>
-                </div> */}
-
 		
                 <p><label for="type_occasion"> Pour quelle occasion ?</label></p>
                 <select name="type_occas" id="type_occas">
@@ -115,15 +98,14 @@ const Formulaire = () => {
                 
                 <p><label for="price">Budget :</label> 
                 <select name="price" id="price">
-                    <option value="1ePrix">500€ - 1000€</option>
-                    <option value="2ePrix">100€ - 1500€</option>
-                    <option value="autrePrix">1500€ +</option>
+                    <option value="1ePrix">900€ - 1500€</option>
+                    <option value="2ePrix">1500€ - 2000€</option>
+                    <option value="autrePrix">3000€ +</option>
                 </select></p>
 
                 <p><label for="how">Comment avez vous connue l'Idylle ? </label> 
                 <input type="text" name="how" id="how" placeholder='Via Instagram'/></p>
 		 
-        		{/* <p> <input type="submit" name="submit" value="Envoyer"/> </p> */}
                 <button>
                     <div class="svg-wrapper-1">
                         <div class="svg-wrapper">

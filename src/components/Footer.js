@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-/* import logo from '../medias/Logo beige.png'
 
-import { FaFacebookSquare, FaInstagram } from "react-icons/fa"; */
 import '../style/components/Footer.scss';
 
 const Footer = () => {
@@ -15,7 +13,7 @@ const Footer = () => {
                 <Link to="/evenements-prives"> Privés</Link>
                 <Link to="/evenements-professionels"> Professionnel</Link>
                 <Link to="/portfolio"> Portfolio</Link>
-                <Link to="/blog">blog </Link>
+                <Link to="/wedding-planner">Wedding </Link>
                 <Link to="/reservation"> Réserver</Link>
             </div>
 

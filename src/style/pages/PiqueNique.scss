@@ -5,8 +5,8 @@
     .title {
         margin: 20px auto 0;
         text-align: center; 
-        border-bottom: 3px solid #fff;
-        width: 20%;
+        border-bottom: 2px solid #fff;
+        width: 25%;
         margin-bottom: 50px;
 
         @include respond(tab-port){
@@ -68,6 +68,10 @@
                     text-align: center;
                     margin-bottom: 50px;
                 }
+
+                div {
+                    display: none;
+                }
             }
 
             @include respond(tab-port){
@@ -76,6 +80,10 @@
 
             h1{
                 text-align: center;
+                position: relative;
+                top: 30%;
+                left: 50%;
+                width: 100%;
                 margin-bottom: 3%;
 
                 @include respond(tab-port){
@@ -84,9 +92,10 @@
             }
 
             img {
-                height: 525px;
-                width: 500px;
+                height: 515px;
+                width: 400px;
                 margin-right: 70px;
+                margin-left: -10%;
 
                 @include respond(tab-port){
                     height: 50%;
@@ -118,15 +127,25 @@
                 display: none; 
             }
 
+            p {
+                div {
+                    display: none;
+                }
+            }
+
             h1 {
                 text-align: center;
+                position: relative;
+                top: 30%;
+                left: 50%;
+                width: 100%;
                 margin-bottom: 3%;
             }
 
             img {
-                height: 525px;
-                width: 500px;
-                margin-left: 70px; 
+                height: 515px;
+                width: 400px;
+                margin-left: 35%; 
             }
         }
     }
@@ -195,6 +214,15 @@
                 font-size: 16px;
                 background-size: 100% 100%;
                 color: #fff;
+            }
+
+            a {
+                text-decoration: none;
+                color: #000;
+
+                &:hover {
+                    color: #fff;
+                }
             }
         }
     }

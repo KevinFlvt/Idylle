@@ -1,42 +1,41 @@
 import React from 'react';
-import img1 from '../../medias/eventPri/anniversaire.jpg';
-import img2 from '../../medias/eventPri/fete_naissance.jpg';
-import img3 from '../../medias/Toumblak.jpg';
-import img4 from '../../medias/Kaladja.jpg';
+import img1 from '../../medias/Picnic_Romantique.jpeg';
+import img2 from '../../medias/Picnic_Dejeuner.jpeg';
+import img3 from '../../medias/Sunday_BBQ.jpeg';
+import img4 from '../../medias/Picnic_1an.jpeg';
+import img5 from '../../medias/Picnic_Nature.jpeg';
 import './PortHome.scss';
 import { NavLink } from 'react-router-dom';
 
 const slides = [
   {
     id: 1,
-    title: "Anniversaire",
-    subtitle: "Peru",
-    description: "Adventure is never far away",
+    subtitle: "Romantique",
     image: img1,
     link: '/portfolio'
   },
   {
     id: 2,
-    title: "Fete de naissance",
-    subtitle: "France",
-    description: "Let your dreams come true",
+    subtitle: "Brunch",
     image: img2,
     link: '/portfolio'
   },
   {
     id: 3,
-    title: "Toumblak",
-    subtitle: "Australia",
-    description: "A piece of heaven",
+    subtitle: "Sunday BBQ",
     image: img3,
     link: '/portfolio'
   },
   {
     id: 4,
-    title: "Kaladja",
-    subtitle: "pique-nique",
-    description: "yes yes yes",
+    subtitle: "Convivial",
     image: img4,
+    link: '/portfolio'
+  },
+  {
+    id: 5,
+    subtitle: "Nature",
+    image: img5,
     link: '/portfolio'
   }
 ];

@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Histoire from '../components/landing_page/Histoire';
 import Introduction from '../components/landing_page/Introduction';
-import NewBlog from '../components/landing_page/NewBlog';
+//import NewBlog from '../components/landing_page/NewBlog';
 import Naviguation from '../components/Naviguation';
 import PortfHome from '../components/landing_page/PortHome';
 import { FaInstagram } from 'react-icons/fa';
@@ -21,7 +21,7 @@ const Home = () => {
             <Introduction />
             <Histoire />
             <PortfHome />
-            <NewBlog />
+            {/* <NewBlog /> */}
             
             <Footer />
         </div>
