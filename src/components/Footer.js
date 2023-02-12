@@ -12,8 +12,8 @@ const Footer = () => {
                 <Link to="/pique-nique"> PicNic </Link>
                 <Link to="/evenements-prives"> Privés</Link>
                 <Link to="/evenements-professionels"> Professionnel</Link>
-                <Link to="/portfolio"> Portfolio</Link>
                 <Link to="/wedding-planner">Wedding </Link>
+                <Link to="/portfolio"> Portfolio</Link>
                 <Link to="/reservation"> Réserver</Link>
             </div>
 

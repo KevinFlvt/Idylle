@@ -7,13 +7,13 @@ const FormW = () => {
         <div className='formW'>
             <h2>Sautons le pas !</h2>
             <form>
-                <p><label htmlFor="nameWoman">Nom et prénom de la future mariée</label> <input name='nameWoman' type="text" required/></p>
+                <p><label htmlFor="nameWoman">Nom et prénom de la future mariée</label> <input name='nameWoman' type="text" placeholder='Nom de jeune fille et Prénom' required/></p>
 
-                <p><label htmlFor="nameMan">Nom et prénom du futur marié</label> <input name='nameMan' type="text" required/></p>
+                <p><label htmlFor="nameMan">Nom et prénom du futur marié</label> <input name='nameMan' type="text" placeholder='Nom et Prénom' required/></p>
 
-                <p><label htmlFor="email">Adresse mail</label> <input name='email' type="email" required/></p>
+                <p><label htmlFor="email">Email</label> <input name='email' type="email" placeholder='Adresse mail' required/></p>
 
-                <p><label htmlFor="telephone">N° de téléphone</label> <input name='email' type="tel" required/></p>
+                <p><label htmlFor="telephone">Téléphone</label> <input name='email' type="tel" placeholder='Numéro de téléphone' required/></p>
 
                 <p><label htmlFor="dateCivil">Date du mariage civil</label> <input name='dateCivil' type="date" required/></p>
 
@@ -37,13 +37,13 @@ const FormW = () => {
                 </div>
                 
 
-                <p><label htmlFor="invite">Nombre d'invités</label><input type="number" name='invite' required/></p>
+                <p><label htmlFor="invite">Nombre d'invités</label><input type="number" name='invite' placeholder="Nombre d'invités" required/></p>
 
-                <p> <label htmlFor="theme">Thématique choisi</label><input type="text" name='theme' required/></p>
+                <p> <label htmlFor="theme">Thématique choisie</label><input type="text" name='theme' placeholder='Amour Gloire et Beauté' required/></p>
 
-                <p><label htmlFor="color">Couleur choisi</label><input type="text" name='color' required/></p>
+                <p><label htmlFor="color">Couleurs choisies</label><input type="text" name='color' placeholder='Vert anis - Blanc' required/></p>
 
-                <p><label htmlFor="connu">Comment avez-vous connu l'idylle ?</label><input type="text" name='connu' required/></p>
+                <p><label htmlFor="connu">Comment avez-vous connu l'idylle ?</label><input type="text" name='connu' placeholder='Instagram' required/></p>
 
                 <div className="textStart">
                     <p><label htmlFor="importantPoint">Avez-vous un point important à mettre en avant lors de vos/votre cérémonie(s) ?</label></p> 

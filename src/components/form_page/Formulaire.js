@@ -1,10 +1,16 @@
     import React from 'react';
+    import { FaInstagram } from 'react-icons/fa';
 
 import '../../style/components/form_page/Formulaire.scss';
 
 const Formulaire = () => {
     return (
         <div className='form'>
+
+            <div className="insta">
+            <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer' id='insta'><FaInstagram /></a>
+            </div>
+            
             <div className="bg"></div>
 
             <div className="title">

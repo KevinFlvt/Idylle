@@ -1,6 +1,36 @@
 @import '../../index.scss';
 
 .form {
+
+    .insta {
+        display: none;
+
+        @include respond(tab-port) {
+            display: block;
+            position: fixed;
+            right: 2%;
+            bottom: 8%;
+            
+            color: white;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: $idylle-color;
+            z-index: 1;
+            
+            a {
+                text-decoration: none;
+                color: white;
+            }
+            
+            svg {
+                padding: 5px;
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+
     .bg {
         background: url("../../../medias/idylle_cadre_flou.jpg") no-repeat;
         background-size: cover;
@@ -10,7 +40,7 @@
         top: -5px;
         left: 0;
         right: 0;
-        filter: blur(5px);
+        filter: blur(7px);
         z-index: -50;
     }
 
@@ -19,7 +49,6 @@
         color: #fff;
         text-align: center;
         position: relative;
-        top: 50px;
         width: 100%;
         margin: -5% auto 10%;
 
@@ -31,6 +60,18 @@
 
             @include respond(tab-port) {
                 font-size: 2em;
+            }
+
+            @include respond(phone) {
+                font-size: 1.5em;
+                margin-top: 15%;
+            }
+        }
+
+        p {
+            @include respond(phone){
+                margin-top: -10%;
+                font-size: .9em;
             }
         }
 
@@ -124,37 +165,6 @@
                 @include respond(tab-port) {
                     padding: 10px 2.5px
                 }
-
-                /* &[type="submit"]{
-                    margin: 5% auto;
-                    width: 20%;
-                    cursor: pointer;
-                    font-size: 70%;
-                    padding: .5rem .7rem;
-                    letter-spacing: 3px;
-                    color: #000;
-                    border-color: #000000;
-
-                    
-                    background-image: linear-gradient(0, $idylle-color, $idylle-color);
-                    background-size: 0 0;
-                    transition: .8s;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    transition-timing-function: ease-in-out(0.52, 1.64, 0.37, 0.66);
-
-
-                    @include respond(tab-port) {
-                        width: 70%;
-                    }
-
-                    &:hover {
-                        font-size: 20px;
-                        background-size: 100% 100%;
-                        color: #fff;
-                        
-                    }
-                } */
             
             }
 

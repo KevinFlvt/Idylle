@@ -30,12 +30,13 @@
         
         @include respond(tab-port) {
             font-size: 16px;
-            width: 90%;
+           // width: 90%;
         }
 
 
         p {
-            line-height: 60px;
+            line-height: 40px;
+            margin-bottom: 30px;
 
             @include respond(tab-port) {
                 line-height: 40px;
@@ -52,26 +53,28 @@
             }
 
             label {
-                margin-right: 10px;
+/*                 margin-right: 10px;
                 width: 410px;
                 font-size: large;
                 display: inline-block;
-                text-align: start;
+                text-align: start; */
+                display: block;
+                width: auto;
+                float: left;
 
-                @include respond(tab-port) {
-                    width: 100%;
-                }
+    /*                 @include respond(tab-port) {
+                        width: 100%;
+                    }
 
-                @include respond(phone){
-                    font-size: 14px;
-                }
+                    @include respond(phone){
+                        font-size: 14px;
+                    } */
             }
 
             textarea {
-                width: 93%;
+                width: 100%;
                 
                 &:focus {
-                    color: rgb(255, 255, 255);
                     outline-color: $idylle-color;
                     box-shadow: -2px -2px 4px $idylle-color;
                     transition: .1s;
@@ -84,13 +87,13 @@
             }
 
             input {
-                padding: 5px;
+                padding: 10px 5px;
                 border: 2px solid white;
                 border-radius: 5px;
-                width: 50%;
+                width: 100%;
+                color: black;
 
                 &:focus {
-                    color: rgb(255, 255, 255);
                     outline-color: $idylle-color;
                     box-shadow: -2px -2px 4px $idylle-color;
                     transition: .1s;
@@ -102,7 +105,7 @@
                 }
 
                 &[type="date"] {
-                    width: 50%;
+                    width: 100%;
 
                     @include respond(tab-port) {
                         width: 100%;
@@ -176,38 +179,42 @@
 
         .radioRow {
             overflow: hidden;
-            width: 70%;
+            margin-bottom: 5%;
 
             .left {
                 float: left;
-                margin-left: 16.5%;
-                margin-right: 26.5%;
+                margin-left: 10%;
+               /* margin-right: 26.5%; */
 
-                @include respond(phone){
+/*                 @include respond(phone){
                     width: 100%;
-                }
+                } */
 
                 label {
                     font-size: 18px;
-                    margin-left: 12px;
+                    margin-right: 10px;
+                    width: auto;
 
                     @include respond(phone){
                         font-size: 14px;
                         width: 100%;
-                        margin-left: -46%;
                     }
                 }
             }
 
             .right {
+                float: left;
 
                 @include respond(tab-port) {
                     float: left;
                     margin-left: 4%;
+                    margin-top: 3%;
                 }
 
                 label {
-                    margin-left: 20px;
+                    margin: 0 20px;
+                    width: auto;
+                    font-size: 18px;
 
                     @include respond(phone){
                         font-size: 14px;
@@ -215,18 +222,19 @@
                 }
             }
 
+            input[type="radio"] {
+                margin-right: 10px;
+            }
 
         }
 
         .textStart {
             label {
                 width: auto;
-                text-align: center;
+                text-align: justify;
+                line-height: 30px;
+                margin-bottom: 1%;
             }
-        }
-
-        input[type="radio"] {
-            margin-right: 10px;
         }
     }
 }

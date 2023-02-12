@@ -151,14 +151,17 @@
     }
     .footer {
        .container{
-
+        width: 66%;
+        margin: 0 auto;
         @include respond(phone){
             margin: 0;
         }
        }
 
-       
        .col-sm {
+        p{
+            font-size: 12px;
+        }
         @include respond(phone){
             display: none;
         }
