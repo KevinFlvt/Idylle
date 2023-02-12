@@ -14,7 +14,8 @@
         }
 
         @include respond(phone) {
-            width: 70%;
+            width: 50%;
+            font-size: 95%;
         }
     }
 
@@ -33,7 +34,7 @@
 
         @include respond(phone) {
             width: 95%;
-            font-size: 14px;
+            font-size: 95%;
         }
     }
     
@@ -52,7 +53,7 @@
 
         .imgLeft {
             display: flex;
-            margin-bottom: 7%;
+            margin-bottom: 10%;
 
             p {
                 font-size: 18px;
@@ -80,10 +81,6 @@
 
             h1{
                 text-align: center;
-                position: relative;
-                top: 28%;
-                left: 25%;
-                width: 100%;
                 margin-bottom: 3%;
 
                 @include respond(tab-port){
@@ -95,7 +92,6 @@
                 height: 515px;
                 width: 400px;
                 margin-right: 70px;
-                margin-left: -10%;
 
                 @include respond(tab-port){
                     height: 50%;
@@ -129,7 +125,7 @@
 
         .imgRight {
             display: flex;
-            margin-bottom: 7%;
+            margin-bottom: 10%;
 
             @include respond(tab-port){
                 display: none; 
@@ -143,9 +139,6 @@
 
             h1 {
                 text-align: center;
-                position: relative;
-                top: 30%;
-                width: 100%;
                 margin-bottom: 3%;
             }
 

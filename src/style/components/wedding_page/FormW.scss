@@ -5,11 +5,8 @@
     text-align: center;
 
     h2 {
-        //font-style: normal;
         margin: auto; 
         text-align: center;
-        width: 40%;
-        font-family: $idylle-style;
         font-weight: 150;
         letter-spacing: .18rem;
         font-size: 4em;
@@ -224,7 +221,7 @@
         .textStart {
             label {
                 width: auto;
-                text-align: start;
+                text-align: center;
             }
         }
 

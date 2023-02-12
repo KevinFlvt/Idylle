@@ -16,7 +16,7 @@ const PiqueNique = () => {
             <Naviguation />
             <h1 className='title'>Pique-Nique</h1>
 
-            <p className='paragraphe'>L'idylle vous accompagne dans vos pique nique! Différentes prestations appelé Prestylle! 
+            <p className='paragraphe'>L'idylle vous accompagne dans vos pique-nique à travers différentes prestations appelées Prestylle ! 
            {/*  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur esse ad, consectetur porro asperiores beatae natus nulla quos? Non, quam! */}</p>
 
             <div className="container">

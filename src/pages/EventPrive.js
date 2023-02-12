@@ -37,7 +37,7 @@ const EventPrive = () => {
                 <div className='imgLeft'>
                     <img src={img2} alt="" />
                     <p>
-                        <h1>Demande en mariage</h1>
+                        <h1>Fiancailles</h1>
                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod deserunt dolorem magni omnis dicta voluptate exercitationem, sequi itaque libero labore dignissimos repellat error repudiandae culpa veniam distinctio pariatur? Recusandae!</div><br />
                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum quaerat nemo qui consequatur id, dolor maiores in reprehenderit, recusandae veritatis voluptates. Laborum quia pariatur ea dolores veniam perspiciatis a.</div>
                     </p>                    
@@ -46,7 +46,7 @@ const EventPrive = () => {
 
                 <div className='imgRight'>
                     <p>
-                        <h1>Demande en mariage</h1>
+                        <h1>Fiancailles</h1>
                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod deserunt dolorem magni omnis dicta voluptate exercitationem, sequi itaque libero labore dignissimos repellat error repudiandae culpa veniam distinctio pariatur? Recusandae!</div><br />
                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum quaerat nemo qui consequatur id, dolor maiores in reprehenderit, recusandae veritatis voluptates. Laborum quia pariatur ea dolores veniam perspiciatis a.</div>
                     </p>
@@ -66,7 +66,7 @@ const EventPrive = () => {
                 <div className='imgLeft'>
                     <img src={img4} alt="" />
                     <p>
-                        <h1>Fete de naissance</h1>
+                        <h1>Naissance</h1>
                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod deserunt dolorem magni omnis dicta voluptate exercitationem, sequi itaque libero labore dignissimos repellat error repudiandae culpa veniam distinctio pariatur? Recusandae!</div><br />
                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum quaerat nemo qui consequatur id, dolor maiores in reprehenderit, recusandae veritatis voluptates. Laborum quia pariatur ea dolores veniam perspiciatis a.</div>
                     </p>
@@ -76,7 +76,7 @@ const EventPrive = () => {
 
                 <div className='imgRight'>
                     <p>
-                        <h1>Fete de naissance</h1>
+                        <h1>Naissance</h1>
                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod deserunt dolorem magni omnis dicta voluptate exercitationem, sequi itaque libero labore dignissimos repellat error repudiandae culpa veniam distinctio pariatur? Recusandae!</div><br />
                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum quaerat nemo qui consequatur id, dolor maiores in reprehenderit, recusandae veritatis voluptates. Laborum quia pariatur ea dolores veniam perspiciatis a.</div>
                     </p>
