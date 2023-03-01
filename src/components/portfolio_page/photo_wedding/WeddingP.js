@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import Footer from '../../Footer';
 import Naviguation from '../../Naviguation';
 
-import w1 from '../../../medias/folio_wedding/wedding1.jpg';
-import w2 from '../../../medias/folio_wedding/wedding2.jpg';
-import w3 from '../../../medias/folio_wedding/wedding3.jpg';
-import w4 from '../../../medias/folio_wedding/wedding4.jpg';
-import w5 from '../../../medias/folio_wedding/wedding5.jpg';
-import w6 from '../../../medias/folio_wedding/wedding6.jpg';
+import w1 from '../../../medias/Wedding/wedding1.jpg';
+import w2 from '../../../medias/Wedding/wedding2.jpg';
+import w3 from '../../../medias/Wedding/wedding3.jpg';
+import w4 from '../../../medias/Wedding/wedding4.jpg';
+import w5 from '../../../medias/Wedding/wedding5.jpg';
+import w6 from '../../../medias/Wedding/wedding6.jpg';
 
 import {AiOutlineClose} from 'react-icons/ai';
 import Aos from 'aos';

@@ -1,8 +1,8 @@
 import React from 'react';
-import K from '../../medias/Picnic_Dejeuner.jpeg';
-import M from '../../medias/Event_Pro.jpg';
-import T from '../../medias/eventPri/anniversaire.png';
-import W from '../../medias/Wedding planner.jpg';
+import K from '../../medias/Picnics/Picnic.png';
+import M from '../../medias/eventPro/Event_Pro.png';
+import T from '../../medias/eventPri/Event_Prive.png';
+import W from '../../medias/Wedding/Wedding planner.jpg';
 
 import '../../style/components/portfolio_page/HomeGallery.scss';
 
@@ -51,7 +51,7 @@ const HomeGallery = () => {
 
                 <div className="content" data-aos="fade-left"> 
                     <Link to="/portfolio/mariage"><img src={W} alt="" /> 
-                        <h4>Wedding</h4>
+                        <h4>Wedding Planning</h4>
 
                         <div className="caption">
                             <h4>Votre mariage gravé à jamais</h4>

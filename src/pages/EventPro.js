@@ -7,12 +7,18 @@ import img1 from '../medias/Celest-Kitchen.jpg';
 import img2 from '../medias/Celest-Office.jpg';
 import img3 from '../medias/Celest-salon.jpg';
 import { NavLink } from 'react-router-dom';
+import { FaInstagram } from 'react-icons/fa';
 
 const EventPro = () => {
 
     return (
         <div className='eventPro'>
             <Naviguation />
+
+            <div className="insta">
+            <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer' id='insta'><FaInstagram /></a>
+            </div>
+
             <h1 className='title'>Évènements Professionnels</h1>
 
             <p className='paragraphe'>L'idylle vous accompagne aussi dans vos évènements professionnels!</p>

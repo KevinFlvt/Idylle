@@ -2,6 +2,10 @@
 
 .eventPrive {
     
+    .insta {
+        @include insta;
+    }
+    
     .title {
         margin: 20px auto 0;
         text-align: center; 

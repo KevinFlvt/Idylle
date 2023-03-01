@@ -1,7 +1,7 @@
 @import '../../index.scss';
 
 .homeGallery {
-    width: 90%;
+    width: auto;
     margin: 50px auto;
     padding: 10px;
 
@@ -102,8 +102,8 @@
             }
         
             @include respond(phone){
-                height: 220px;
-                width: 220px;
+                height: 240px;
+                width: 200px;
             }
         }
     }

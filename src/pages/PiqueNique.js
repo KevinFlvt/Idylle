@@ -8,12 +8,19 @@ import img1 from '../medias/Kaladja.jpg';
 import img2 from '../medias/Mennde.jpg';
 import img3 from '../medias/Toumblak.jpg';
 import { NavLink } from 'react-router-dom';
+import { FaInstagram } from 'react-icons/fa';
 
 const PiqueNique = () => {
  
     return (
         <div className='piqueNique'>
             <Naviguation />
+
+            <div className="insta">
+            <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer' id='insta'><FaInstagram /></a>
+            </div>
+
+
             <h1 className='title'>Pique-Nique</h1>
 
             <p className='paragraphe'>L'idylle vous accompagne dans vos pique-nique à travers différentes prestations appelées Prestylle ! 

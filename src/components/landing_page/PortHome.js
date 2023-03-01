@@ -10,7 +10,7 @@ import { NavLink } from 'react-router-dom';
 const slides = [
   {
     id: 1,
-    subtitle: "Romantique",
+    subtitle: "Pique-Nique",
     image: img1,
     link: '/portfolio'
   },
@@ -28,13 +28,13 @@ const slides = [
   },
   {
     id: 4,
-    subtitle: "Convivial",
+    subtitle: "Pique-Nique",
     image: img4,
     link: '/portfolio'
   },
   {
     id: 5,
-    subtitle: "Nature",
+    subtitle: "Pique-Nique",
     image: img5,
     link: '/portfolio'
   }

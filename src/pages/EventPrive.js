@@ -9,6 +9,7 @@ import img4 from '../medias/eventPri/fete_naissance.png';
 
 import '../style/pages/EventPrive.scss';
 import { NavLink } from 'react-router-dom';
+import { FaInstagram } from 'react-icons/fa';
 
 const EventPrive = () => {
 
@@ -16,6 +17,12 @@ const EventPrive = () => {
 
         <div className='eventPrive'>
             <Naviguation />
+
+            <div className="insta">
+            <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer' id='insta'><FaInstagram /></a>
+            </div>
+
+
             <h1 className='title'>Évènements Privés</h1>
 
             <p className='paragraphe'>L'idylle vous accompagne aussi dans vos évènements privés! Anniversaire, première communion, annonce de fiancaille n'attendez plus !

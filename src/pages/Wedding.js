@@ -4,9 +4,9 @@ import Naviguation from '../components/Naviguation';
 import FormW from '../components/wedding_page/FormW';
 import WhyUs from '../components/wedding_page/WhyUs';
 
-import w1 from '../medias/folio_wedding/wedding1.jpg';
-import w2 from '../medias/folio_wedding/wedding2.jpg';
-import w3 from '../medias/folio_wedding/wedding3.jpg';
+import w1 from '../medias/Wedding/wedding1.jpg';
+import w2 from '../medias/Wedding/wedding2.jpg';
+import w3 from '../medias/Wedding/wedding3.jpg';
 
 
 import {AiOutlineClose} from 'react-icons/ai';

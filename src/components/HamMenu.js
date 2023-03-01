@@ -36,11 +36,12 @@ const HamMenu = ({
                         <NavLink className='ham__link' to='/evenements-professionels'>Évènements pro </NavLink>
                     </li>
                     <li className="ham__list__item">
-                        <NavLink className='ham__link' to='/portfolio'>Portfolio</NavLink>
+                        <NavLink className='ham__link' to='/wedding-planner'>Wedding</NavLink>
                     </li>
                     <li className="ham__list__item">
-                        <NavLink className='ham__link' to='/blog'>Blog</NavLink>
+                        <NavLink className='ham__link' to='/portfolio'>Portfolio</NavLink>
                     </li>
+
                     <li className="ham__list__item">
                         <NavLink className='ham__link' to='/reservation'>Je réserve</NavLink>
                     </li>

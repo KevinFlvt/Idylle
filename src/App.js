@@ -19,6 +19,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/Idylle' element={<Home />} />
 
           <Route path='/pique-nique' element = {<PiqueNique />} />
             <Route path='/wedding-planner' element= {<Wedding /> } />

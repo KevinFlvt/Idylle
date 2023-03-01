@@ -1,19 +1,40 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 import '../../style/components/wedding_page/FormW.scss';
 
 const FormW = () => {
+
+    //fontion envoie de mail
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_0g8p4yn', 'template_oewogun', form.current, 'Tgz1pP6Jqvdt8ZD8X')
+        .then((result) => {
+            console.log(result.text);
+            window.alert("Votre message à bien été envoyé.\nVérifier vos spams si vous n'avez rien reçu.");
+            e.target.reset();
+            console.log("message envoyé");
+
+        }, (error) => {
+            console.log(error.text);
+            console.log("echec de l'envoie");
+        });
+    };
+
     return (
         <div className='formW'>
             <h2>Sautons le pas !</h2>
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
                 <p><label htmlFor="nameWoman">Nom et prénom de la future mariée</label> <input name='nameWoman' type="text" placeholder='Nom de jeune fille et Prénom' required/></p>
 
                 <p><label htmlFor="nameMan">Nom et prénom du futur marié</label> <input name='nameMan' type="text" placeholder='Nom et Prénom' required/></p>
 
                 <p><label htmlFor="email">Email</label> <input name='email' type="email" placeholder='Adresse mail' required/></p>
 
-                <p><label htmlFor="telephone">Téléphone</label> <input name='email' type="tel" placeholder='Numéro de téléphone' required/></p>
+                <p><label htmlFor="telephone">Téléphone</label> <input name='telephone' type="tel" placeholder='Numéro de téléphone' required/></p>
 
                 <p><label htmlFor="dateCivil">Date du mariage civil</label> <input name='dateCivil' type="date" required/></p>
 

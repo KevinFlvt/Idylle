@@ -1,9 +1,30 @@
-    import React from 'react';
-    import { FaInstagram } from 'react-icons/fa';
+import React, { useRef } from 'react';
+import { FaInstagram } from 'react-icons/fa';
+import emailjs from 'emailjs-com';
 
 import '../../style/components/form_page/Formulaire.scss';
 
 const Formulaire = () => {
+
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_0g8p4yn', 'template_gkx3vc8', form.current, 'Tgz1pP6Jqvdt8ZD8X')
+        .then((result) => {
+            console.log(result.text);
+            window.alert("Votre message à bien été envoyé. \n Vérifier vos spams si vous n'avez rien reçu.");
+            e.target.reset();
+            console.log("message envoyé");
+
+        }, (error) => {
+            console.log(error.text);
+            console.log("echec de l'envoie");
+        });
+    };
+
     return (
         <div className='form'>
 
@@ -21,7 +42,7 @@ const Formulaire = () => {
             </div>
 
             <div className="container">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
                 <p><label for="nom">Nom :</label> 
                 <input type="text" name="nom" id="nom" placeholder='Nom de famille' required/></p>
 
@@ -45,34 +66,34 @@ const Formulaire = () => {
                 <input type="time" name="h_deb" id="h_deb" required/></p>
 
                 <p><label for="h_fin">Heure approximative de fin : </label>
-                <input type="time" name="" id="h_fin" required/> </p>
+                <input type="time" name="h_fin" id="h_fin" required/> </p>
 		
 		        <p><label for="place">Lieu : </label> 
                 <input type="text" name="place" id="place" required placeholder="Lieu de l'évènement"/></p>
                 <p className="propal"><span>Afin de vous proposez un décor sur mesusre nous vous invitons à nous transmettre des photos et vidéos du lieu par WhatsApp au <strong> +590 690 74 69 31</strong></span></p>
 		
 		        <p><label for="nb_invit">Nombre d'invités : </label> 
-                <input type="number" name="nb-invit" id="nb_invit" required placeholder="Quel est le nombre d'invité ?"/></p>
+                <input type="number" name="nb_invit" id="nb_invit" required placeholder="Quel est le nombre d'invité ?"/></p>
 
                 <p><label for="type_presta">Type de prestations :</label>
                 <select name="type_presta" id="type_presta">
-                    <option value="picnic">Pique-Nique</option>
-                    <option value="event">Évènement</option>
-                    <option value="ballon">Ballon Desinger</option>
-                    <option value="wedding">Wedding Planner</option>
+                    <option value="Pique-Nique">Pique-Nique</option>
+                    <option value="Évènement">Évènement</option>
+                    <option value="Ballon">Balloon Designer</option>
+                    <option value="Mariage">Wedding Planner</option>
                 </select></p>
 		
                 <p><label for="type_occasion"> Pour quelle occasion ?</label></p>
                 <select name="type_occas" id="type_occas">
-                    <option value="birthDay">Anniversaire</option>
-                    <option value="weddingPropose">Demande en Mariage</option>
-                    <option value="religious">Célébraion Religieuse</option>
-                    <option value="birthParty">Fête de Naissance</option>
-                    <option value="engagement">Annonce de Fiançailles</option>
-                    <option value="wedding">Mariage</option>
-                    <option value="baby">Baby Shower</option>
-                    <option value="evj">EVJF - EVJG</option>
-                    <option value="sharing">Moment de partage</option>
+                    <option value="Anniversaire">Anniversaire</option>
+                    <option value="Demande en mariage">Demande en Mariage</option>
+                    <option value="Célébration Religieuse">Célébration Religieuse</option>
+                    <option value="Fête de Naissance">Fête de Naissance</option>
+                    <option value="Annonce de Fiançailles">Annonce de Fiançailles</option>
+                    <option value="Mariage">Mariage</option>
+                    <option value="Baby Shower">Baby Shower</option>
+                    <option value="EVJF - EVJG">EVJF - EVJG</option>
+                    <option value="Moment de partage">Moment de partage</option>
                 </select>
                 
                 <div className="radioRow">
@@ -104,9 +125,9 @@ const Formulaire = () => {
                 
                 <p><label for="price">Budget :</label> 
                 <select name="price" id="price">
-                    <option value="1ePrix">900€ - 1500€</option>
-                    <option value="2ePrix">1500€ - 2000€</option>
-                    <option value="autrePrix">3000€ +</option>
+                    <option value="900€ - 1500€">900€ - 1500€</option>
+                    <option value="1500€ - 2000€">1500€ - 2000€</option>
+                    <option value="3000€ +">3000€ +</option>
                 </select></p>
 
                 <p><label for="how">Comment avez vous connue l'Idylle ? </label> 
