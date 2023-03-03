@@ -12,6 +12,10 @@ import Error404 from './pages/Error404';
 import Blog from './pages/Blog';
 import Single from './components/blog_page/blog_single/Single';
 import WeddingP from './components/portfolio_page/photo_wedding/WeddingP';
+import PicnicP from './components/portfolio_page/photo_picnic/PicnicP.js';
+import PriveP from './components/portfolio_page/photo_prive/PriveP.js';
+import ProP from './components/portfolio_page/photo_pro/ProP.js';
+import Offres from './pages/Offres';
 
 function App() {
   return (
@@ -28,11 +32,17 @@ function App() {
           <Route path='/evenements-prives' element={<EventPrive />} />
 
           {/* Evenement pro */}
-          <Route path='/evenements-professionels' element={<EventPro />} />
+          <Route path='/evenements-professionnels' element={<EventPro />} />
+
+          {/* Offres */}
+          <Route path='/offres-exception' element = {<Offres />} />
 
           {/* Portfolio */}
           <Route path='portfolio' element={<Portfolio />} />
           <Route path='/portfolio/mariage' element={<WeddingP />} />
+          <Route path='/portfolio/pique-nique' element={<PicnicP />} />
+          <Route path='/portfolio/evenements-prives' element={<PriveP />} />
+          <Route path='/portfolio/evenements-professionnels' element={<ProP />} />
           
           {/* Blog */}
           <Route path='/blog' element = {<Blog/>} />

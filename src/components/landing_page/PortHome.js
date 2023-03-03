@@ -10,30 +10,35 @@ import { NavLink } from 'react-router-dom';
 const slides = [
   {
     id: 1,
+    title : "Anniversaire",
     subtitle: "Pique-Nique",
     image: img1,
     link: '/portfolio'
   },
   {
     id: 2,
-    subtitle: "Brunch",
+    title: "Brunch",
+    subtitle: "Pique-Nique",
     image: img2,
     link: '/portfolio'
   },
   {
     id: 3,
-    subtitle: "Sunday BBQ",
+    title: "Sunday BBQ",
+    subtitle: "Event Privé",
     image: img3,
     link: '/portfolio'
   },
   {
     id: 4,
+    title: "Anniversaire",
     subtitle: "Pique-Nique",
     image: img4,
     link: '/portfolio'
   },
   {
     id: 5,
+    title: "Entre amis" , 
     subtitle: "Pique-Nique",
     image: img5,
     link: '/portfolio'

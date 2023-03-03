@@ -1,5 +1,5 @@
 import React from 'react';
-import me from '../../medias/photo_presentation.jpeg';
+import me from '../../medias/Photo_accueuil.jpeg';
 
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 

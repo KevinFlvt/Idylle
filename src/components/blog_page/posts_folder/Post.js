@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import K from '../../../medias/Kaladja.jpg';
+import K from '../../../medias/Kaladja.jpeg';
 import '../../../style/components/blog_page/posts_folder/Post.scss';
 
 const Post = () => {

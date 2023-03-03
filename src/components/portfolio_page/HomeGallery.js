@@ -23,34 +23,41 @@ const HomeGallery = () => {
             <div className="homeGallery__row">
 
                 <div className="content" data-aos="fade-right">
-                    <img src={K} alt="" />
-                    <h4>pique-nique</h4>
+                    <Link to="/portfolio/pique-nique">
+                        <img src={K} alt="" />
+                        <h4>pique-nique</h4>
 
-                    <div className="caption">
-                        <h4>Pour des moments conviviaux !</h4>
-                    </div>
+                        <div className="caption">
+                            <h4>Pour des moments conviviaux !</h4>
+                        </div>
+                    </Link>
                 </div>
 
                 <div className="content" data-aos="fade-left">
-                    <img src={T} alt="" />
-                    <h4>évènements privés</h4>
+                    <Link to="/portfolio/evenements-prives">
+                        <img src={T} alt="" />
+                        <h4>évènements privés</h4>
 
-                    <div className="caption">
-                        <h4>Des anniversaires inoubliables !</h4>
-                    </div>
+                        <div className="caption">
+                            <h4>Des anniversaires inoubliables !</h4>
+                        </div>
+                    </Link>    
                 </div>
 
                 <div className="content" data-aos="fade-right">
-                    <img src={M} alt="" />
-                    <h4>évènements professionnels</h4>
+                    <Link to="/portfolio/evenements-professionnels">
+                        <img src={M} alt="" />
+                        <h4>évènements professionnels</h4>
 
-                    <div className="caption">
-                        <h4>Boutique la fèmé</h4>
-                    </div>
+                        <div className="caption">
+                            <h4>Boutique la fèmé</h4>
+                        </div>
+                    </Link>    
                 </div>
 
                 <div className="content" data-aos="fade-left"> 
-                    <Link to="/portfolio/mariage"><img src={W} alt="" /> 
+                    <Link to="/portfolio/mariage">
+                        <img src={W} alt="" /> 
                         <h4>Wedding Planning</h4>
 
                         <div className="caption">

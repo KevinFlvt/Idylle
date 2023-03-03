@@ -114,7 +114,7 @@ h1 {
 
     .slideSubtitle,
     .slideTitle {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       font-weight: normal;
       letter-spacing: 0.2ch;
       text-transform: uppercase;
@@ -127,6 +127,10 @@ h1 {
       @include respond(phone){
         font-size: 70%;
       } 
+    }
+
+    .slideSubtitle {
+      font-size: 1.2rem;
     }
   
     .slideSubtitle::before {

@@ -92,7 +92,7 @@ const EventPrive = () => {
             </div>
 
             <div className="you">
-                <p>Laissez-vous tentez par nos Prest'ylles !</p>
+                <h1>Laissez-vous tentez par nos Prest'ylles !</h1>
                 <button><NavLink to='/reservation'>Contactez-nous</NavLink></button>
             </div>
 

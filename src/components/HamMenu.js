@@ -29,21 +29,24 @@ const HamMenu = ({
                     </li>
 
                     <li className="ham__list__item">
-                        <NavLink className='ham__link' to='/evenements-prives'>Évènements privés</NavLink>
+                        <NavLink className='ham__link' to='/evenements-prives'>Évènements Privés</NavLink>
                     </li>
 
                     <li className="ham__list__item">
-                        <NavLink className='ham__link' to='/evenements-professionels'>Évènements pro </NavLink>
+                        <NavLink className='ham__link' to='/evenements-professionels'>Évènements Pro </NavLink>
                     </li>
                     <li className="ham__list__item">
-                        <NavLink className='ham__link' to='/wedding-planner'>Wedding</NavLink>
+                        <NavLink className='ham__link' to='/wedding-planner'>Wedding Planner</NavLink>
+                    </li>
+                    <li className="ham__list__item">
+                        <NavLink className='ham__link' to='/offres-exception'>Offres d'Exception</NavLink>
                     </li>
                     <li className="ham__list__item">
                         <NavLink className='ham__link' to='/portfolio'>Portfolio</NavLink>
                     </li>
 
                     <li className="ham__list__item">
-                        <NavLink className='ham__link' to='/reservation'>Je réserve</NavLink>
+                        <NavLink className='ham__link' to='/reservation'>Je Réserve</NavLink>
                     </li>
                 </ul>
             </nav>

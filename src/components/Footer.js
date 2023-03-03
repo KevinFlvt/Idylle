@@ -10,9 +10,10 @@ const Footer = () => {
 
             <div className="container">
                 <Link to="/pique-nique"> PicNic </Link>
-                <Link to="/evenements-prives"> Privés</Link>
-                <Link to="/evenements-professionels"> Professionnel</Link>
+                <Link to="/evenements-prives"> Privé</Link>
+                <Link to="/evenements-professionnels"> Professionnel</Link>
                 <Link to="/wedding-planner">Wedding </Link>
+                <Link to="/offres-exception">Offres </Link>
                 <Link to="/portfolio"> Portfolio</Link>
                 <Link to="/reservation"> Réserver</Link>
             </div>

@@ -22,7 +22,7 @@ const Introduction = () => {
             <section className='section1'>
                 <div className='section1__title' data-aos="zoom-in">
                     <h1>L'idylle Event</h1>
-                    <h4>Notre souhait ? Vous transportez à travers nos prest'ylles !</h4>
+                    <h4>Organisation d'évènements <luxe>Luxury Prest'ylle</luxe> en Guadeloupe <span className='normal'> et dans la Caraïbe !</span><span>&#129498;&#127995;</span></h4>
                 </div>
             </section>
 
@@ -54,7 +54,7 @@ const Introduction = () => {
                         <Link to='/evenements-professionels'>-Pro-</Link>
                         <div className="info">
                             <h1>Évènements Pro</h1>
-                            <p>Vous voulez mettre en valeur votre entreprise lors de votre prochain évènement ? Faites confiance à l'idylle et laissez-nous vous aider à créer l'atmosphère idéale !</p>
+                            <p>Vous souhaitez mettre en valeur votre entreprise lors de votre prochain évènement ? Faites confiance à l'idylle et laissez-nous vous aider à créer l'ambiance idéale !</p>
                             <Link to='/evenements-professionels'>Voir plus</Link>
                         </div>
                     </div>

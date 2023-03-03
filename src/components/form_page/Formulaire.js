@@ -85,15 +85,15 @@ const Formulaire = () => {
 		
                 <p><label for="type_occasion"> Pour quelle occasion ?</label></p>
                 <select name="type_occas" id="type_occas">
-                    <option value="Anniversaire">Anniversaire</option>
-                    <option value="Demande en mariage">Demande en Mariage</option>
-                    <option value="Célébration Religieuse">Célébration Religieuse</option>
-                    <option value="Fête de Naissance">Fête de Naissance</option>
                     <option value="Annonce de Fiançailles">Annonce de Fiançailles</option>
-                    <option value="Mariage">Mariage</option>
-                    <option value="Baby Shower">Baby Shower</option>
-                    <option value="EVJF - EVJG">EVJF - EVJG</option>
+                    <option value="Célébration Religieuse">Célébration Religieuse</option>
+                    <option value="Demande en mariage">Demande en Mariage</option>
                     <option value="Moment de partage">Moment de partage</option>
+                    <option value="Fête de Naissance">Fête de Naissance</option> 
+                    <option value="EVJF - EVJG">EVJF - EVJG</option>
+                    <option value="Baby Shower">Baby Shower</option>   
+                    <option value="Anniversaire">Anniversaire</option>  
+                    <option value="Mariage">Mariage</option>
                 </select>
                 
                 <div className="radioRow">

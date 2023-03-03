@@ -18,12 +18,6 @@ const Navbar = ({ toggleHam }) => {
                 <Link to='/'><img src={logo} alt="logo du site" className='logoPhone'/></Link> {/* Pour la version phone */}
 
                 <li className="navbar__list__item">
-                    <NavLink className='navbar__link' to ='/'>
-                        Accueil
-                    </NavLink>
-                </li>
-
-                <li className="navbar__list__item">
                     <NavLink className='navbar__link' to ='/pique-nique'>
                         Pique-Nique<i><MdOutlineKeyboardArrowDown /></i>
                     </NavLink>
@@ -42,27 +36,27 @@ const Navbar = ({ toggleHam }) => {
 
                 <li className="navbar__list__item" >
                     <NavLink className='navbar__link' to ='/evenements-prives'>
-                        Évènements privés <i> <MdOutlineKeyboardArrowDown /></i>
+                        Évènement privé <i> <MdOutlineKeyboardArrowDown /></i>
                     </NavLink>
                     <ul className="subMenu" style={{marginTop: '150px'}}>
+                        <li className="navbar__list__item">
+                            <NavLink className='navbar__link' to ='/portfolio'>Fête de naissance</NavLink>
+                        </li>
                         <li className="navbar__list__item" >
-                            <NavLink className='navbar__link' to ='/pique-nique/toumblak'>Anniversaire</NavLink>
+                            <NavLink className='navbar__link' to ='/portfolio'>Anniversaire</NavLink>
                         </li>
                         <li className="navbar__list__item">
-                            <NavLink className='navbar__link' to ='/pique-nique/kaladja'>Demande en mariage</NavLink>
+                            <NavLink className='navbar__link' to ='/portfolio'>Baptême</NavLink>
                         </li>
                         <li className="navbar__list__item">
-                            <NavLink className='navbar__link' to ='/pique-nique/mennde'>fête de naissance</NavLink>
-                        </li>
-                        <li className="navbar__list__item">
-                            <NavLink className='navbar__link' to ='/pique-nique/mennde'>EVJF</NavLink>
+                            <NavLink className='navbar__link' to ='/portfolio'>EVJF</NavLink>
                         </li>
                     </ul>
                 </li>
 
                 <li className="navbar__list__item">
-                    <NavLink className='navbar__link' to ='/evenements-professionels'>
-                        Évènements pro <i> <MdOutlineKeyboardArrowDown /></i>
+                    <NavLink className='navbar__link' to ='/evenements-professionnels'>
+                        Évènement pro <i> <MdOutlineKeyboardArrowDown /></i>
                     </NavLink>
                     <ul className="subMenu">
                         <li className="navbar__list__item">
@@ -82,6 +76,12 @@ const Navbar = ({ toggleHam }) => {
                         Wedding Planner
                     </NavLink>
                 </li> 
+
+                <li className="navbar__list__item">
+                    <NavLink className='navbar__link' to ='/offres-exception'>
+                        Offres d'exception
+                    </NavLink>
+                </li>
 
                 <li className="navbar__list__item">
                     <NavLink className='navbar__link' to ='/portfolio'>
