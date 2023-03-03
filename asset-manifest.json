@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Idylle/static/css/main.c0bf1496.css",
-    "main.js": "/Idylle/static/js/main.47c234c8.js",
+    "main.css": "/Idylle/static/css/main.227636fb.css",
+    "main.js": "/Idylle/static/js/main.ba200a19.js",
     "static/media/Celest-Kitchen.jpg": "/Idylle/static/media/Celest-Kitchen.a75aae4862a451c7c4c2.jpg",
     "static/media/Celest-Office.jpg": "/Idylle/static/media/Celest-Office.5957137d1f66e08c2cda.jpg",
-    "static/media/photo_presentation.jpeg": "/Idylle/static/media/photo_presentation.65abdc0f0e28f461eaba.jpeg",
+    "static/media/Photo_accueuil.jpeg": "/Idylle/static/media/Photo_accueuil.b584ca402263ca48db0e.jpeg",
     "static/media/background.png": "/Idylle/static/media/background.bb0b835c0c0c32bd6d01.png",
     "static/media/demande_mariage.png": "/Idylle/static/media/demande_mariage.d2ecbaaf37280c34639d.png",
     "static/media/evjf.png": "/Idylle/static/media/evjf.67d3742269644e44be39.png",
@@ -15,25 +15,26 @@
     "static/media/Picnic.png": "/Idylle/static/media/Picnic.97b63579a23f0387ebfa.png",
     "static/media/Event_Prive.png": "/Idylle/static/media/Event_Prive.483eb65ab262f92153fb.png",
     "static/media/Celest-salon.jpg": "/Idylle/static/media/Celest-salon.7bcdb03d631614ada697.jpg",
-    "static/media/Toumblak.jpg": "/Idylle/static/media/Toumblak.75b704add434dba1f732.jpg",
     "static/media/Picnic_Nature.jpeg": "/Idylle/static/media/Picnic_Nature.c6b7e9107e95ce9f7203.jpeg",
     "static/media/Sunday_BBQ.jpeg": "/Idylle/static/media/Sunday_BBQ.c9e622f82bd53170f504.jpeg",
-    "static/media/Mennde.jpg": "/Idylle/static/media/Mennde.2f1e04a33a9d7705aed2.jpg",
-    "static/media/Kaladja.jpg": "/Idylle/static/media/Kaladja.8beb82709dbe9dd07c97.jpg",
+    "static/media/Toumblak.jpeg": "/Idylle/static/media/Toumblak.34fcfab110ca887a3c09.jpeg",
     "static/media/Picnic_Romantique.jpeg": "/Idylle/static/media/Picnic_Romantique.cfd1f43fb6744cad9a43.jpeg",
     "static/media/Picnic_Dejeuner.jpeg": "/Idylle/static/media/Picnic_Dejeuner.bac9641192949749990b.jpeg",
     "static/media/Picnic_1an.jpeg": "/Idylle/static/media/Picnic_1an.798e0c8ad64194c0ed2b.jpeg",
     "static/media/Wedding planner.jpg": "/Idylle/static/media/Wedding planner.5f543e76e54933e9a8a5.jpg",
+    "static/media/Mennde.jpeg": "/Idylle/static/media/Mennde.08f04c602965f6ff3e53.jpeg",
+    "static/media/Kaladja.jpeg": "/Idylle/static/media/Kaladja.6b121c5d96c706120c7a.jpeg",
+    "static/media/AYW.jpeg": "/Idylle/static/media/AYW.1fbe96a51ed2faa959d2.jpeg",
     "static/media/Logo beige.png": "/Idylle/static/media/Logo beige.5c6ac5ca06438ffb91b2.png",
     "static/media/wedding1.jpg": "/Idylle/static/media/wedding1.6b9f1fb235deb6cdb923.jpg",
     "static/media/wedding6.jpg": "/Idylle/static/media/wedding6.a878580194089529ff79.jpg",
     "static/media/wedding3.jpg": "/Idylle/static/media/wedding3.bca757eef10f2624fb80.jpg",
     "index.html": "/Idylle/index.html",
-    "main.c0bf1496.css.map": "/Idylle/static/css/main.c0bf1496.css.map",
-    "main.47c234c8.js.map": "/Idylle/static/js/main.47c234c8.js.map"
+    "main.227636fb.css.map": "/Idylle/static/css/main.227636fb.css.map",
+    "main.ba200a19.js.map": "/Idylle/static/js/main.ba200a19.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0bf1496.css",
-    "static/js/main.47c234c8.js"
+    "static/css/main.227636fb.css",
+    "static/js/main.ba200a19.js"
   ]
 }
