@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/Idylle/static/css/main.62f9b083.css",
-    "main.js": "/Idylle/static/js/main.2572b65a.js",
+    "main.css": "/Idylle/static/css/main.3e92c356.css",
+    "main.js": "/Idylle/static/js/main.6f666639.js",
     "static/media/Celest-Kitchen.jpg": "/Idylle/static/media/Celest-Kitchen.a75aae4862a451c7c4c2.jpg",
+    "static/media/anniversaire.jpeg": "/Idylle/static/media/anniversaire.495a940e1087baa9a0f6.jpeg",
     "static/media/Celest-Office.jpg": "/Idylle/static/media/Celest-Office.5957137d1f66e08c2cda.jpg",
     "static/media/Photo_accueuil.jpeg": "/Idylle/static/media/Photo_accueuil.b584ca402263ca48db0e.jpeg",
+    "static/media/Bapt3.JPG": "/Idylle/static/media/Bapt3.6a212367e718dffca726.JPG",
+    "static/media/Retr3.JPG": "/Idylle/static/media/Retr3.34f9f29634194d76536e.JPG",
+    "static/media/Retr4.JPG": "/Idylle/static/media/Retr4.7d9ac4f3553fbab79748.JPG",
+    "static/media/Bapt1.JPG": "/Idylle/static/media/Bapt1.f9d4e9ec16864b609e6d.JPG",
     "static/media/background.png": "/Idylle/static/media/background.bb0b835c0c0c32bd6d01.png",
+    "static/media/Bapt2.JPG": "/Idylle/static/media/Bapt2.1f91e8befd4dc01c8ff7.JPG",
+    "static/media/Bapt4.JPG": "/Idylle/static/media/Bapt4.4832a64f1f63b6b8d227.JPG",
+    "static/media/Retr1.JPG": "/Idylle/static/media/Retr1.1e5f5e8abab58be5118a.JPG",
+    "static/media/Retr2.JPG": "/Idylle/static/media/Retr2.2f6088d2b813ab036694.JPG",
     "static/media/demande_mariage.png": "/Idylle/static/media/demande_mariage.d2ecbaaf37280c34639d.png",
     "static/media/evjf.png": "/Idylle/static/media/evjf.67d3742269644e44be39.png",
     "static/media/fete_naissance.png": "/Idylle/static/media/fete_naissance.bbdf56e7a1e2b44f369b.png",
-    "static/media/anniversaire.png": "/Idylle/static/media/anniversaire.ed2cd4e676e34267d8ad.png",
+    "static/media/Retr5.JPG": "/Idylle/static/media/Retr5.ed1eb2322c20fd27d3ff.JPG",
     "static/media/Event_Pro.png": "/Idylle/static/media/Event_Pro.bf020b7bdfe89af395a2.png",
     "static/media/idylle_cadre_flou.jpg": "/Idylle/static/media/idylle_cadre_flou.18aefc99534483cbccf4.jpg",
     "static/media/Picnic.png": "/Idylle/static/media/Picnic.97b63579a23f0387ebfa.png",
@@ -18,6 +27,7 @@
     "static/media/Picnic_Nature.jpeg": "/Idylle/static/media/Picnic_Nature.c6b7e9107e95ce9f7203.jpeg",
     "static/media/Sunday_BBQ.jpeg": "/Idylle/static/media/Sunday_BBQ.c9e622f82bd53170f504.jpeg",
     "static/media/Toumblak.jpeg": "/Idylle/static/media/Toumblak.34fcfab110ca887a3c09.jpeg",
+    "static/media/anniv1.jpeg": "/Idylle/static/media/anniv1.9fd2d98cdfbd3fbdb649.jpeg",
     "static/media/Picnic_Romantique.jpeg": "/Idylle/static/media/Picnic_Romantique.cfd1f43fb6744cad9a43.jpeg",
     "static/media/Picnic_Dejeuner.jpeg": "/Idylle/static/media/Picnic_Dejeuner.bac9641192949749990b.jpeg",
     "static/media/Picnic_1an.jpeg": "/Idylle/static/media/Picnic_1an.798e0c8ad64194c0ed2b.jpeg",
@@ -30,11 +40,11 @@
     "static/media/wedding6.jpg": "/Idylle/static/media/wedding6.a878580194089529ff79.jpg",
     "static/media/wedding3.jpg": "/Idylle/static/media/wedding3.bca757eef10f2624fb80.jpg",
     "index.html": "/Idylle/index.html",
-    "main.62f9b083.css.map": "/Idylle/static/css/main.62f9b083.css.map",
-    "main.2572b65a.js.map": "/Idylle/static/js/main.2572b65a.js.map"
+    "main.3e92c356.css.map": "/Idylle/static/css/main.3e92c356.css.map",
+    "main.6f666639.js.map": "/Idylle/static/js/main.6f666639.js.map"
   },
   "entrypoints": [
-    "static/css/main.62f9b083.css",
-    "static/js/main.2572b65a.js"
+    "static/css/main.3e92c356.css",
+    "static/js/main.6f666639.js"
   ]
 }
