@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Idylle/static/css/main.3e92c356.css",
-    "main.js": "/Idylle/static/js/main.6f666639.js",
+    "main.css": "/Idylle/static/css/main.75ed69f0.css",
+    "main.js": "/Idylle/static/js/main.64518c8e.js",
     "static/media/Celest-Kitchen.jpg": "/Idylle/static/media/Celest-Kitchen.a75aae4862a451c7c4c2.jpg",
     "static/media/anniversaire.jpeg": "/Idylle/static/media/anniversaire.495a940e1087baa9a0f6.jpeg",
     "static/media/Celest-Office.jpg": "/Idylle/static/media/Celest-Office.5957137d1f66e08c2cda.jpg",
@@ -40,11 +40,11 @@
     "static/media/wedding6.jpg": "/Idylle/static/media/wedding6.a878580194089529ff79.jpg",
     "static/media/wedding3.jpg": "/Idylle/static/media/wedding3.bca757eef10f2624fb80.jpg",
     "index.html": "/Idylle/index.html",
-    "main.3e92c356.css.map": "/Idylle/static/css/main.3e92c356.css.map",
-    "main.6f666639.js.map": "/Idylle/static/js/main.6f666639.js.map"
+    "main.75ed69f0.css.map": "/Idylle/static/css/main.75ed69f0.css.map",
+    "main.64518c8e.js.map": "/Idylle/static/js/main.64518c8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e92c356.css",
-    "static/js/main.6f666639.js"
+    "static/css/main.75ed69f0.css",
+    "static/js/main.64518c8e.js"
   ]
 }
