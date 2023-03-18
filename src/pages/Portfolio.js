@@ -12,14 +12,14 @@ const Portfolio = () => {
             <Naviguation />
 
             <div className="insta">
-            <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer'><FaInstagram /></a>
+                <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer'><FaInstagram /></a>
             </div>
 
-                <h1>PORTFOLIO</h1>
-                
-                 <HomeGallery />
+            <h1>PORTFOLIO</h1>
+
+            <HomeGallery />
             <Footer />
-            
+
         </div>
     );
 };

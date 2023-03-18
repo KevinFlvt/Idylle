@@ -13,14 +13,14 @@ const Offres = () => {
             <Naviguation />
 
             <div className="insta">
-            <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer' id='insta'><FaInstagram /></a>
+                <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer' id='insta'><FaInstagram /></a>
             </div>
 
 
             <h1 className='title'>Nos Offres d'exceptions</h1>
 
             <div className="gallery">
-                <div className="gallery__item"> 
+                <div className="gallery__item">
                     <img src={box} alt="" />
                     <span>Love Box TakeAway</span>
                 </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Histoire from '../components/landing_page/Histoire';
 import Introduction from '../components/landing_page/Introduction';
-//import NewBlog from '../components/landing_page/NewBlog';
 import Naviguation from '../components/Naviguation';
 import PortfHome from '../components/landing_page/PortHome';
 import { FaInstagram } from 'react-icons/fa';
@@ -15,14 +14,13 @@ const Home = () => {
         <div className='home' >
             <Naviguation />
             <div className="insta">
-            <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer'><FaInstagram /></a>
+                <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer'><FaInstagram /></a>
             </div>
 
             <Introduction />
             <Histoire />
             <PortfHome />
-            {/* <NewBlog /> */}
-            
+
             <Footer />
         </div>
     );

@@ -16,7 +16,7 @@ const EventPro = () => {
             <Naviguation />
 
             <div className="insta">
-            <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer' id='insta'><FaInstagram /></a>
+                <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer' id='insta'><FaInstagram /></a>
             </div>
 
             <h1 className='title'>Évènements Professionnels</h1>
@@ -26,7 +26,7 @@ const EventPro = () => {
             <div className="container">
 
                 <div className='imgLeft'>
-                    <img src={img1} alt=""/>
+                    <img src={img1} alt="" />
                     <p>
                         <h1>Séminaire</h1>
                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod deserunt dolorem magni omnis dicta voluptate exercitationem, sequi itaque libero labore dignissimos repellat error repudiandae culpa veniam distinctio pariatur? Recusandae!</div><br />
@@ -42,7 +42,7 @@ const EventPro = () => {
                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod deserunt dolorem magni omnis dicta voluptate exercitationem, sequi itaque libero labore dignissimos repellat error repudiandae culpa veniam distinctio pariatur? Recusandae!</div><br />
                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum quaerat nemo qui consequatur id, dolor maiores in reprehenderit, recusandae veritatis voluptates. Laborum quia pariatur ea dolores veniam perspiciatis a.</div>
                     </p>
-                    
+
                 </div>
                 {/* ----------------------- */}
 
@@ -55,8 +55,8 @@ const EventPro = () => {
                     <img src={img2} alt="" />
                 </div>
 
-            
-            
+
+
                 <div className='imgLeft'>
                     <img src={img3} alt="" />
                     <p>
@@ -72,7 +72,7 @@ const EventPro = () => {
                 <button><NavLink to='/reservation'>Contactez-nous</NavLink></button>
             </div>
 
-         <Footer />
+            <Footer />
         </div>
     );
 };

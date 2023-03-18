@@ -18,8 +18,8 @@ const Naviguation = () => {
 
     return (
         <div className='naviguation'>
-            <Navbar toggleHam = {toggleHam} />
-            <HamMenu isOpen = {showHam} closeHam = {closeHam} />
+            <Navbar toggleHam={toggleHam} />
+            <HamMenu isOpen={showHam} closeHam={closeHam} />
         </div>
     );
 };

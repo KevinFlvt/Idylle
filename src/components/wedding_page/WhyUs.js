@@ -4,7 +4,7 @@ import w4 from '../../medias/Wedding/wedding4.jpg';
 import w5 from '../../medias/Wedding/wedding5.jpg';
 import w6 from '../../medias/Wedding/wedding6.jpg';
 
-import {AiOutlineClose} from 'react-icons/ai';
+import { AiOutlineClose } from 'react-icons/ai';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -13,8 +13,8 @@ import '../../style/components/wedding_page/WhyUs.scss';
 const WhyUs = () => {
 
     useEffect(() => {
-        Aos.init({duration: 1500});
-    }, [] )
+        Aos.init({ duration: 1500 });
+    }, [])
 
     let data2 = [
         {
@@ -39,7 +39,7 @@ const WhyUs = () => {
     const [model, setModel] = useState(false);
     const [tempImgSrc, setTempImgSrc] = useState('');
 
-    const getImg  = (imgSrc) => {
+    const getImg = (imgSrc) => {
         setTempImgSrc(imgSrc);
         setModel(true);
     }
@@ -48,20 +48,20 @@ const WhyUs = () => {
         <div className='nous'>
             <h1>Pourquoi nous dire </h1>
             <h2>OUI !</h2>
-            
+
             <div className="text">
                 <p>Organiser un mariage demande énormément d'investissement personnel.
-                Le plus important, lors de votre mariage, ce sera de partager ensemble un moment de
-                bonheur inoubliable. Vous vous retrouverez avec vos proches, pour vivre un instant
-                privilégié de joie, de partage et de tendresse. Le plus important... C'est vous !
-                D'ou l'importance du choix de votre wedding planner. Alors, pourquoi nous dire oui ?</p>
+                    Le plus important, lors de votre mariage, ce sera de partager ensemble un moment de
+                    bonheur inoubliable. Vous vous retrouverez avec vos proches, pour vivre un instant
+                    privilégié de joie, de partage et de tendresse. Le plus important... C'est vous !
+                    D'ou l'importance du choix de votre wedding planner. Alors, pourquoi nous dire oui ?</p>
 
                 <br /> <br />
 
                 <p><h4>L'organisation</h4></p>
                 <p>Organisé, rigoureux, capable d’anticiper les problèmes et d'organiser les différentes
-                tâches de votre événement sans jamais se laisser déborder, voici les points principaux qui
-                sont primordiaux pour nous.
+                    tâches de votre événement sans jamais se laisser déborder, voici les points principaux qui
+                    sont primordiaux pour nous.
                 </p>
 
                 <br /> <br />
@@ -91,21 +91,21 @@ const WhyUs = () => {
             </div>
 
             <div className={model ? "model open" : "model"}>
-                    <img src={tempImgSrc} alt="" />
-                    <AiOutlineClose onClick={() => setModel(false)}/>
-                </div>
+                <img src={tempImgSrc} alt="" />
+                <AiOutlineClose onClick={() => setModel(false)} />
+            </div>
 
-                <div className="container">
-                    <div className="container__row">
-                        {data2.map((item, index) =>{
-                            return(
-                                <div className="container__content" key={index} onClick={() => getImg(item.imgSrc)}>
-                                    <img src={item.imgSrc} alt="" data-aos={item.effect} data-aos-delay={item.delay} />
-                                </div>
-                            )
-                        })}
-                    </div>
-                </div>  
+            <div className="container">
+                <div className="container__row">
+                    {data2.map((item, index) => {
+                        return (
+                            <div className="container__content" key={index} onClick={() => getImg(item.imgSrc)}>
+                                <img src={item.imgSrc} alt="" data-aos={item.effect} data-aos-delay={item.delay} />
+                            </div>
+                        )
+                    })}
+                </div>
+            </div>
         </div>
     );
 };

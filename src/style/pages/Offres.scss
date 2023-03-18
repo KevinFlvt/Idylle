@@ -5,15 +5,15 @@
     .insta {
         @include insta;
     }
-   
+
     .title {
         margin: 20px auto 0;
-        text-align: center; 
+        text-align: center;
         border-bottom: 2px solid #fff;
         width: 50%;
         margin-bottom: 50px;
 
-        @include respond(tab-port){
+        @include respond(tab-port) {
             width: 40%;
         }
 
@@ -26,7 +26,6 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 5%;
-        //justify-content: space-between;
 
         &__item {
             position: relative;
@@ -34,23 +33,33 @@
             border: 1px solid #fff;
             margin: 0 10px;
 
-            @include respond(phone){
+            @include respond(phone) {
+                display: flex;
+                justify-content: center;
                 flex-basis: 100%;
+                margin-bottom: 20px;
             }
 
             img {
                 width: 300px;
                 height: auto;
+
+                @include respond(phone) {
+                    display: flex;
+                    justify-content: center;
+                    width: 250px;
+
+                }
             }
-            
+
             h4 {
                 font-style: italic;
                 text-align: center;
                 padding-top: 50%;
                 margin: 0 auto;
 
-                &::first-letter{
-                text-transform: uppercase;
+                &::first-letter {
+                    text-transform: uppercase;
                 }
             }
 
@@ -63,6 +72,7 @@
                 margin: 0;
                 background-color: rgba(0, 0, 0, 0.8);
                 color: #fff;
+                text-align: center;
             }
         }
     }

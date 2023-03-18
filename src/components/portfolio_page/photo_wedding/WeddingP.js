@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Footer from '../../Footer';
 import Naviguation from '../../Naviguation';
 
@@ -9,90 +9,74 @@ import w4 from '../../../medias/Wedding/wedding4.jpg';
 import w5 from '../../../medias/Wedding/wedding5.jpg';
 import w6 from '../../../medias/Wedding/wedding6.jpg';
 
-import {AiOutlineClose} from 'react-icons/ai';
-import Aos from 'aos';
-import "aos/dist/aos.css";
+import { AiOutlineClose } from 'react-icons/ai';
 
 import '../../../style/components/portfolio_page/folio_wedding/WeddingP.scss';
-import { Link } from 'react-router-dom';
+/* import { Link } from 'react-router-dom'; */
 
 const WeddingP = () => {
 
-    useEffect(() => {
-        Aos.init({duration: 1500});
-    }, [] )
-
-    let data = [ 
+    let data = [
         {
             id: 1,
             imgSrc: w1,
-            effect: "fade-down-right",
-            delay: 400,
         },
         {
             id: 2,
             imgSrc: w2,
-            effect: "fade-down",
-            delay: 100,
-            
         },
         {
             id: 3,
             imgSrc: w3,
-            effect: "fade-down-left",
-            delay: 300,
         },
         {
             id: 4,
             imgSrc: w4,
-            effect: "fade-up-right",
-            delay: 200,
         },
         {
             id: 5,
             imgSrc: w5,
-            effect: "fade-up",
         },
         {
             id: 6,
             imgSrc: w6,
-            effect: "fade-up-left",
-            delay: 500,
         }
     ]
 
+    /* Permet d'afficher l'image quand on click */
     const [model, setModel] = useState(false);
-    const [tempImgSrc, setTempImgSrc] = useState('');
+    const [tempimgSrc, setTempimgSrc] = useState('');
 
-    const getImg  = (imgSrc) => {
-        setTempImgSrc(imgSrc);
+    const getImg = (imgSrc) => {
+        setTempimgSrc(imgSrc);
         setModel(true);
     }
 
     return (
         <div className='weddingP'>
             <Naviguation />
-                <h1>MARIAGE</h1>
+            <h1>MARIAGE</h1>
 
-                <div className={model ? "model open" : "model"}>
-                    <img src={tempImgSrc} alt="" />
-                    <AiOutlineClose onClick={() => setModel(false)}/>
+            <div className={model ? "model open" : "model"}>
+                <img src={tempimgSrc} alt="" />
+                <AiOutlineClose onClick={() => setModel(false)} />
+            </div>
+
+            <div className="container">
+                <div className="gallery">
+                    {data.map((item, index) => {
+                        return (
+                            <div className="pics" key={index} onClick={() => getImg(item.imgSrc)}>
+                                <img src={item.imgSrc} alt={item.alt} style={{ width: '100%' }} />
+                            </div>
+                        )
+                    })}
                 </div>
 
-                <div className="container">
-                    <div className="container__row">
-                        {data.map((item, index) =>{
-                            return(
-                                <div className="container__content" key={index} onClick={() => getImg(item.imgSrc)}>
-                                    <img src={item.imgSrc} alt="" data-aos={item.effect} data-aos-delay={item.delay} />
-                                </div>
-                            )
-                        })}
-                    </div>
+                {/*                 <Link to='/reservation'> <button className="callToAction">Pourquoi pas vous ?</button> </Link> */}
 
-                    <Link to='/reservation'> <button className="callToAction">Pourquoi pas vous ?</button> </Link>
+            </div>
 
-                </div>
             <Footer />
         </div>
     );

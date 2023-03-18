@@ -1,19 +1,19 @@
 @import '../index.scss';
 
 .eventPrive {
-    
+
     .insta {
         @include insta;
     }
-    
+
     .title {
         margin: 20px auto 0;
-        text-align: center; 
+        text-align: center;
         border-bottom: 2px solid #fff;
         width: 38%;
         margin-bottom: 30px;
 
-        @include respond(tab-port){
+        @include respond(tab-port) {
             width: 45%;
         }
 
@@ -24,13 +24,13 @@
     }
 
     .paragraphe {
-        width: 85%; 
+        width: 85%;
         margin: auto;
         text-align: center;
         margin-bottom: 40px;
         font-size: 20px;
 
-        @include respond(tab-port){
+        @include respond(tab-port) {
             width: 90%;
             font-size: 17px;
             margin-top: -2%;
@@ -41,13 +41,13 @@
             font-size: 95%;
         }
     }
-    
+
     .container {
         width: 80%;
         margin: auto;
         height: auto;
 
-        @include respond(tab-port){
+        @include respond(tab-port) {
             width: 90%;
         }
 
@@ -60,14 +60,16 @@
             margin-bottom: 10%;
 
             p {
-                font-size: 18px;
+                /*                 font-size: 16px;
+                position: relative;
+                top: -100px;  */
 
-                @include respond(tab-port){
+                @include respond(tab-port) {
                     font-size: 15px;
                     margin-bottom: 20px;
                     margin-bottom: 70px;
                 }
-        
+
                 @include respond(phone) {
                     font-size: 13px;
                     text-align: center;
@@ -79,33 +81,28 @@
                 }
             }
 
-            @include respond(tab-port){
+            @include respond(tab-port) {
                 display: block;
             }
 
-            h1{
+            h1 {
                 text-align: center;
                 margin-bottom: 3%;
 
-                @include respond(tab-port){
+                @include respond(tab-port) {
                     margin-top: 10px;
                 }
             }
 
             img {
-                height: 515px;
-                width: 400px;
+                @include imgFormat;
                 margin-right: 70px;
 
-                @include respond(tab-port){
-                    height: 50%;
-                    width: 50%;
+                @include respond(tab-port) {
                     margin-left: 24%;
                 }
-        
+
                 @include respond(phone) {
-                    height: 80%;
-                    width: 80%;
                     margin-left: 10%;
                 }
             }
@@ -131,11 +128,15 @@
             display: flex;
             margin-bottom: 10%;
 
-            @include respond(tab-port){
-                display: none; 
+            @include respond(tab-port) {
+                display: none;
             }
 
             p {
+                /*                 font-size: 16px;
+                position: relative;
+                top: -110px; */
+
                 div {
                     display: none;
                 }
@@ -147,9 +148,8 @@
             }
 
             img {
-                height: 515px;
-                width: 400px;
-                margin-left: 30%; 
+                @include imgFormat;
+                margin-left: 30%;
             }
         }
     }
@@ -159,11 +159,11 @@
         margin: 0 auto 35px;
         text-align: center;
         border: 1px solid #fff;
-        padding: 0 1rem 2rem ;
+        padding: 0 1rem 2rem;
         background-color: rgb(0, 0, 0, 0.31);
         line-height: 45px;
 
-        @include respond(tab-port){
+        @include respond(tab-port) {
             width: 90%;
             padding: 0 .75rem 1rem;
             line-height: 35px;
@@ -178,11 +178,11 @@
             width: 100%;
             font-size: 1.7em;
 
-            @include respond(tab-port){
+            @include respond(tab-port) {
                 margin: 25px auto 25px;
                 font-size: 21px;
             }
-    
+
             @include respond(phone) {
                 font-size: 16px;
                 font-weight: 0;
@@ -193,10 +193,10 @@
         p {
             margin-top: -20px;
 
-            @include respond(tab-port){
+            @include respond(tab-port) {
                 font-size: 14px;
             }
-    
+
             @include respond(phone) {
                 font-size: 12px;
                 line-height: 20px;
@@ -215,7 +215,7 @@
             background-position: center;
             transition-timing-function: ease-in-out(0.52, 1.64, 0.37, 0.66);
 
-            
+
             &:hover {
                 cursor: pointer;
                 font-size: 16px;

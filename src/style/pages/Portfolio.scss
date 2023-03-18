@@ -8,11 +8,11 @@
         border-bottom: 2px solid #fff;
         width: 20%;
 
-        @include respond(tab-port){
+        @include respond(tab-port) {
             width: 25%;
         }
-    
-        @include respond(phone){
+
+        @include respond(phone) {
             width: 39%;
         }
     }
@@ -25,18 +25,18 @@
             position: fixed;
             right: 2%;
             bottom: 8%;
-            
+
             color: white;
             height: 40px;
             width: 40px;
             border-radius: 50%;
             background-color: $idylle-color;
-            
+
             a {
                 text-decoration: none;
                 color: white;
             }
-            
+
             svg {
                 padding: 5px;
                 height: 40px;

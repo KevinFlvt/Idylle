@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 import logo from '../medias/Logo beige.png';
 
 const HamMenu = ({
-    isOpen, 
+    isOpen,
     closeHam
 }) => {
     const styles = isOpen ? 'ham ham--open' : 'ham ham--closed';
@@ -14,7 +14,7 @@ const HamMenu = ({
     return (
         <div className='ham'>
             {isOpen ? <div className='ham__backdrop' onClick={closeHam}></div> : ''}
-            <nav className= {`${styles}`}>
+            <nav className={`${styles}`}>
                 <ul className='ham__list'>
                     <div className="ham__logo">
                         <img src={logo} alt="Logo du site" />
@@ -29,17 +29,17 @@ const HamMenu = ({
                     </li>
 
                     <li className="ham__list__item">
-                        <NavLink className='ham__link' to='/evenements-prives'>Évènements Privés</NavLink>
+                        <NavLink className='ham__link' to='/evenements-prives'>Évènement Privé</NavLink>
                     </li>
 
                     <li className="ham__list__item">
-                        <NavLink className='ham__link' to='/evenements-professionels'>Évènements Pro </NavLink>
+                        <NavLink className='ham__link' to='/evenements-professionnels'>Évènement Pro </NavLink>
                     </li>
                     <li className="ham__list__item">
                         <NavLink className='ham__link' to='/wedding-planner'>Wedding Planner</NavLink>
                     </li>
                     <li className="ham__list__item">
-                        <NavLink className='ham__link' to='/offres-exception'>Offres d'Exception</NavLink>
+                        <NavLink className='ham__link' to='/offres-exception'>Offre d'Exception</NavLink>
                     </li>
                     <li className="ham__list__item">
                         <NavLink className='ham__link' to='/portfolio'>Portfolio</NavLink>

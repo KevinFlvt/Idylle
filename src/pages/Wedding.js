@@ -9,7 +9,7 @@ import w2 from '../medias/Wedding/wedding2.jpg';
 import w3 from '../medias/Wedding/wedding3.jpg';
 
 
-import {AiOutlineClose} from 'react-icons/ai';
+import { AiOutlineClose } from 'react-icons/ai';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -20,10 +20,10 @@ import { FaInstagram } from 'react-icons/fa';
 const Wedding = () => {
 
     useEffect(() => {
-        Aos.init({duration: 1500});
-    }, [] )
+        Aos.init({ duration: 1500 });
+    }, [])
 
-    let data1 = [ 
+    let data1 = [
         {
             id: 1,
             imgSrc: w1,
@@ -35,7 +35,7 @@ const Wedding = () => {
             imgSrc: w2,
             effect: "fade-down",
             delay: 100,
-            
+
         },
         {
             id: 3,
@@ -50,7 +50,7 @@ const Wedding = () => {
     const [model, setModel] = useState(false);
     const [tempImgSrc, setTempImgSrc] = useState('');
 
-    const getImg  = (imgSrc) => {
+    const getImg = (imgSrc) => {
         setTempImgSrc(imgSrc);
         setModel(true);
     }
@@ -60,7 +60,7 @@ const Wedding = () => {
             <Naviguation />
 
             <div className="insta">
-            <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer' id='insta'><FaInstagram /></a>
+                <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer' id='insta'><FaInstagram /></a>
             </div>
 
             <div className="title">
@@ -73,21 +73,21 @@ const Wedding = () => {
             <p>Nous pensons que rien n'est impossible. Nous croyons au spectaculaire, nous nous efforçons de faire de chaque instant un moment unique, nous vivons et respirons des évènements inspirants. C'est ce que nous faisons, nous aidons les mariés à créer des moments merveilleux et des souvenirs qui resteront à jamais dans l'esprit de leurs invités.</p>
 
             <div className={model ? "model open" : "model"}>
-                    <img src={tempImgSrc} alt="" />
-                    <AiOutlineClose onClick={() => setModel(false)}/>
-                </div>
+                <img src={tempImgSrc} alt="" />
+                <AiOutlineClose onClick={() => setModel(false)} />
+            </div>
 
-                <div className="container">
-                    <div className="container__row">
-                        {data1.map((item, index) =>{
-                            return(
-                                <div className="container__content" key={index} onClick={() => getImg(item.imgSrc)}>
-                                    <img src={item.imgSrc} alt="" data-aos={item.effect} data-aos-delay={item.delay} />
-                                </div>
-                            )
-                        })}
-                    </div>
-                </div>  
+            <div className="container">
+                <div className="container__row">
+                    {data1.map((item, index) => {
+                        return (
+                            <div className="container__content" key={index} onClick={() => getImg(item.imgSrc)}>
+                                <img src={item.imgSrc} alt="" data-aos={item.effect} data-aos-delay={item.delay} />
+                            </div>
+                        )
+                    })}
+                </div>
+            </div>
 
             <WhyUs />
             <FormW />

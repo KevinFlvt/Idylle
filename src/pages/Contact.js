@@ -11,7 +11,7 @@ const Contact = () => {
             <Naviguation />
             <Formulaire />
             <Footer />
-            
+
         </div>
     );
 };

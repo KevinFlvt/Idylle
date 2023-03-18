@@ -3,14 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Noto+Serif&display=swap&family=Dancing+Script&display=swap&family=Signika&display=swap&family=Playfair+Display&display=swap');
 
 
-// Variable globale du code
+/******** Variable globale du code **********/
 $idylle-color : #dcb993;
-$idylle-text : 'Noto Serif', serif;
-//$idylle-style : 'Dancing Script', cursive;
+$idylle-text : 'Noto Serif',
+serif;
 $idylle-titre: 'Playfair Display', serif;
-$style-oui : 'Signika', sans-serif;
+$style-oui : 'Signika',
+sans-serif;
 
-// Mixins
+/********** Mixins ************/
 @mixin line {
   border: 1.9px solid;
   width: 120px;
@@ -26,42 +27,59 @@ $style-oui : 'Signika', sans-serif;
 @mixin insta {
   display: none;
 
-  @include respond(tab-port){
+  @include respond(tab-port) {
     display: block;
     position: fixed;
     right: 2%;
     bottom: 8%;
-    
+
     color: white;
     height: 40px;
     width: 40px;
     border-radius: 50%;
     background-color: $idylle-color;
     z-index: 1;
-    
+
     a {
-        text-decoration: none;
-        color: white;
+      text-decoration: none;
+      color: white;
     }
-    
+
     svg {
-        padding: 5px;
-        height: 40px;
-        width: 40px;
+      padding: 5px;
+      height: 40px;
+      width: 40px;
     }
   }
 }
 
-*, 
-*::after, 
-*::before{
+@mixin imgFormat {
+  height: 395px;
+  width: 315px;
+
+  @include respond(tab-port) {
+    height: 50%;
+    width: 50%;
+  }
+
+  @include respond(phone) {
+    height: 80%;
+    width: 80%;
+  }
+}
+
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
 }
 
-h1,h2,
-h3,h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: $idylle-titre;
 }
 
@@ -74,7 +92,7 @@ html {
   font-family: $idylle-text;
   @include background;
   color: #fff;
-  
+
 }
 
 body {
@@ -87,27 +105,27 @@ body {
 
 //mixin
 @mixin respond($breakpoint) {
-   @if $breakpoint == phone {
+  @if $breakpoint ==phone {
     @media only screen and (max-width: 570px) {
       @content;
     }
-  } 
+  }
 
-  @if $breakpoint == tab-port {
+  @if $breakpoint ==tab-port {
     @media screen and (max-width: 900px) {
       @content;
     }
   }
 
-  @if $breakpoint == tab-land {
+  @if $breakpoint ==tab-land {
     @media only screen and (max-width: 1200px) {
       @content;
     }
   }
 
-  @if $breakpoint == xl {
+  @if $breakpoint ==xl {
     @media screen and (min-width: 1220px) {
-      @content;      
+      @content;
     }
   }
 }
@@ -124,12 +142,12 @@ body {
 .active {
   color: #fff !important;
   font-size: 20px;
-  border-bottom: 3px solid  $idylle-color;
+  border-bottom: 3px solid $idylle-color;
 
-  
+
   @include respond(tab-land) {
     font-size: 1.1rem;
-}
+  }
 
   @include respond(tab-port) {
     background-color: #c7ae94 !important;

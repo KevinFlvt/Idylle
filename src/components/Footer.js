@@ -13,12 +13,12 @@ const Footer = () => {
                 <Link to="/evenements-prives"> Privé</Link>
                 <Link to="/evenements-professionnels"> Professionnel</Link>
                 <Link to="/wedding-planner">Wedding </Link>
-                <Link to="/offres-exception">Offres </Link>
+                <Link to="/offres-exception">Offre </Link>
                 <Link to="/portfolio"> Portfolio</Link>
                 <Link to="/reservation"> Réserver</Link>
             </div>
 
-            <hr/>
+            <hr />
             <div className="col-sm">
                 <p>
                     &copy;{new Date().getFullYear()} Idylle Event - Tous droits réservés |<Link to='/'>Mentions légales</Link>|<Link to='/'>Conditions générales de ventes</Link>
@@ -27,7 +27,7 @@ const Footer = () => {
 
 
 
-       {/*      
+            {/*      
             <section className="container">
                 <div className="row">
                    

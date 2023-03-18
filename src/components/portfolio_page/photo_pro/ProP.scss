@@ -1,10 +1,9 @@
-@import '../../../index.scss';
+@import '../../../style/index.scss';
 
-.weddingP {
+.proP {
 
     h1 {
         margin: 5% auto 10%;
-        text-align: center;
     }
 
     .model {
@@ -63,7 +62,6 @@
         -moz-column-width: 33%;
         column-width: 33%;
         padding: 0 12px;
-        margin-bottom: 4%;
 
         @include respond(tab-land) {
             -webkit-column-count: 2;
@@ -89,70 +87,6 @@
             &:hover {
                 filter: opacity(.8);
             }
-        }
-    }
-
-    .callToAction {
-        margin: 0 auto;
-        background-color: inherit;
-        border: none;
-        text-decoration: none;
-        padding: 15px 15px;
-        cursor: pointer;
-        position: relative;
-        left: 45%;
-        border-radius: 8px;
-        border: 2px solid $idylle-color;
-        color: #fff;
-        overflow: hidden;
-
-        @include respond(tab-port) {
-            left: 34%;
-        }
-
-        @include respond(phone) {
-            left: 20%;
-        }
-
-        &::before {
-            width: 50%;
-            height: 100%;
-            content: "";
-            margin: auto;
-            position: absolute;
-            top: 0%;
-            left: -50%;
-            background: $idylle-color;
-            transition: all 0.5s ease;
-            z-index: -1;
-        }
-
-        &::after {
-            width: 50%;
-            height: 100%;
-            content: "";
-            margin: auto;
-            position: absolute;
-            top: 0%;
-            left: 100%;
-            background: $idylle-color;
-            transition: all 0.5s ease;
-            z-index: -1;
-        }
-
-        &:hover {
-            font-weight: bolder;
-            font-size: 14px;
-        }
-
-        &:hover:before {
-            top: 0;
-            left: 0;
-        }
-
-        &:hover:after {
-            top: 0;
-            left: 50%;
         }
     }
 }

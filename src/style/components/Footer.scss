@@ -4,7 +4,7 @@
     position: relative;
     bottom: 0;
     left: -6%;
-    width: 111.5%; 
+    width: 111.5%;
     background-color: rgb(0, 0, 0, 0.31);
     height: auto;
 
@@ -15,11 +15,11 @@
         width: 63%;
         margin: 0 auto;
 
-        @include respond(tab-port){
+        @include respond(tab-port) {
             width: 80%;
         }
 
-        @include respond(phone){
+        @include respond(phone) {
             width: 95%;
         }
 
@@ -32,11 +32,11 @@
             opacity: .7;
             margin: 10px 5px 5px 0;
 
-            @include respond(tab-port){
+            @include respond(tab-port) {
                 font-size: .98rem;
             }
-    
-            @include respond(phone){
+
+            @include respond(phone) {
                 font-size: .6rem;
                 width: 100%;
             }
@@ -50,16 +50,16 @@
 
     }
 
-    hr{
+    hr {
         width: 50%;
         margin: 0 auto;
         opacity: .8;
 
-        @include respond(tab-port){
+        @include respond(tab-port) {
             width: 80%;
         }
 
-        @include respond(phone){
+        @include respond(phone) {
             width: 75%;
         }
     }
@@ -73,18 +73,19 @@
         margin: 0 auto;
         opacity: .7;
 
-        @include respond(tab-port){
+        @include respond(tab-port) {
             font-size: 10px;
             width: 55%;
         }
 
-        @include respond(phone){
-            font-size: 8px;;
+        @include respond(phone) {
+            font-size: 8px;
+            ;
             width: 85%;
         }
 
         a {
-            color: #fff;   
+            color: #fff;
         }
     }
 }

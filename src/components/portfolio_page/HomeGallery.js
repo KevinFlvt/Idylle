@@ -15,8 +15,8 @@ import "aos/dist/aos.css";
 const HomeGallery = () => {
 
     useEffect(() => {
-        Aos.init({duration: 1500});
-    }, [] )
+        Aos.init({ duration: 1500 });
+    }, [])
 
     return (
         <div className='homeGallery'>
@@ -41,7 +41,7 @@ const HomeGallery = () => {
                         <div className="caption">
                             <h4>Des anniversaires inoubliables !</h4>
                         </div>
-                    </Link>    
+                    </Link>
                 </div>
 
                 <div className="content" data-aos="fade-right">
@@ -50,21 +50,21 @@ const HomeGallery = () => {
                         <h4>évènements professionnels</h4>
 
                         <div className="caption">
-                            <h4>Boutique la fèmé</h4>
+                            <h4>Ma boutique ma déco</h4>
                         </div>
-                    </Link>    
+                    </Link>
                 </div>
 
-                <div className="content" data-aos="fade-left"> 
+                <div className="content" data-aos="fade-left">
                     <Link to="/portfolio/mariage">
-                        <img src={W} alt="" /> 
+                        <img src={W} alt="" />
                         <h4>Wedding Planning</h4>
 
                         <div className="caption">
                             <h4>Votre mariage gravé à jamais</h4>
                         </div>
                     </Link>
-                </div> 
+                </div>
 
             </div>
 

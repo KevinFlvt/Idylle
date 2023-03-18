@@ -13,15 +13,15 @@
         position: relative;
         margin: 0 auto;
 
-        @include respond(tab-port){
+        @include respond(tab-port) {
             left: 2%;
         }
-    
-        @include respond(phone){
+
+        @include respond(phone) {
             left: 8%;
         }
     }
-    
+
     .content {
         flex-basis: calc(100/2);
         text-align: center;
@@ -29,7 +29,7 @@
         position: relative;
         margin: 0 auto 40px;
 
-        @include respond(tab-port){
+        @include respond(tab-port) {
             margin-bottom: 40px;
         }
 
@@ -50,7 +50,7 @@
 
         .caption {
             background-color: rgba(#ffffff, 0.7);
-            z-index:5;
+            z-index: 5;
             position: absolute;
             margin: 0 auto;
             top: 9%;
@@ -67,9 +67,9 @@
             -webkit-transform: rotateY(90deg);
             transform: rotateY(90deg);
             font-size: 1.5em;
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-            @include respond(tab-port){
+            @include respond(tab-port) {
                 display: none;
             }
         }
@@ -94,14 +94,14 @@
         img {
             height: 385px;
             width: 385px;
-            box-shadow: 0px 0px 150px 50px rgba(0,0,0,0.35);
+            box-shadow: 0px 0px 150px 50px rgba(0, 0, 0, 0.35);
 
-            @include respond(tab-port){
+            @include respond(tab-port) {
                 height: 320px;
                 width: 320px;
             }
-        
-            @include respond(phone){
+
+            @include respond(phone) {
                 height: 240px;
                 width: 200px;
             }

@@ -1,10 +1,9 @@
-@import '../../../index.scss';
+@import '../../../style/index.scss';
 
-.weddingP {
+.picnicP {
 
     h1 {
         margin: 5% auto 10%;
-        text-align: center;
     }
 
     .model {
@@ -63,7 +62,6 @@
         -moz-column-width: 33%;
         column-width: 33%;
         padding: 0 12px;
-        margin-bottom: 4%;
 
         @include respond(tab-land) {
             -webkit-column-count: 2;

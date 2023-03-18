@@ -3,11 +3,12 @@
 .navbar {
     background-color: inherit;
     padding: 2rem 4rem;
-    text-align: center;;
+    text-align: center;
+    ;
     text-transform: uppercase;
     width: 102%;
     align-items: center;
- 
+
 
     .logoDesktop {
 
@@ -28,7 +29,7 @@
         left: -9%;
 
 
-        
+
         @include respond(tab-land) {
             padding-left: 1rem;
         }
@@ -52,7 +53,7 @@
             }
 
 
-            .subMenu{
+            .subMenu {
                 display: none;
                 border-radius: 1px;
 
@@ -65,7 +66,8 @@
                 }
             }
 
-            &:hover .subMenu, .subMenu:hover {
+            &:hover .subMenu,
+            .subMenu:hover {
                 z-index: 9999;
                 display: block;
                 position: absolute;
@@ -86,7 +88,7 @@
         svg {
             margin: 0 1px;
         }
-   
+
         &:hover {
             color: #f2efe3;
             text-decoration: none;
@@ -102,7 +104,7 @@
             font-size: 1.3rem;
             transition: .3s ease-in-out;
 
-            @include respond(tab-land){
+            @include respond(tab-land) {
                 padding: .1em .2em;
                 font-size: 1.1rem;
             }
@@ -121,7 +123,7 @@
 
         transition: .3s ease-in-out;
 
-        @include respond(tab-land){
+        @include respond(tab-land) {
             height: 70%;
             width: 60%;
         }
@@ -155,7 +157,7 @@
     &__hamburger {
         display: none;
 
-        @include respond(tab-port){
+        @include respond(tab-port) {
             display: block;
             z-index: 9999;
             cursor: pointer;
@@ -166,7 +168,7 @@
         }
     }
 
-/*     &__button {
+    /*     &__button {
         display: none;
 
         @include respond(tab-port) {

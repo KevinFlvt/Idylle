@@ -2,7 +2,7 @@ import React from 'react';
 import Naviguation from '../components/Naviguation';
 import Footer from '../components/Footer';
 
-import img1 from '../medias/eventPri/anniversaire.png';
+import img1 from '../medias/eventPri/Anniversaire/anniversaire.jpeg';
 import img2 from '../medias/eventPri/demande_mariage.png';
 import img3 from '../medias/eventPri/evjf.png';
 import img4 from '../medias/eventPri/fete_naissance.png';
@@ -19,7 +19,7 @@ const EventPrive = () => {
             <Naviguation />
 
             <div className="insta">
-            <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer' id='insta'><FaInstagram /></a>
+                <a href="https://www.instagram.com/lidyllee/?hl=fr" target="_blank" rel='noreferrer' id='insta'><FaInstagram /></a>
             </div>
 
 
@@ -31,7 +31,7 @@ const EventPrive = () => {
             <div className="container">
 
                 <div className='imgLeft'>
-                    <img src={img1} alt=""/>
+                    <img src={img1} alt="" />
                     <p>
                         <h1>Anniversaire</h1>
                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod deserunt dolorem magni omnis dicta voluptate exercitationem, sequi itaque libero labore dignissimos repellat error repudiandae culpa veniam distinctio pariatur? Recusandae!</div><br />
@@ -47,7 +47,7 @@ const EventPrive = () => {
                         <h1>Fiancailles</h1>
                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod deserunt dolorem magni omnis dicta voluptate exercitationem, sequi itaque libero labore dignissimos repellat error repudiandae culpa veniam distinctio pariatur? Recusandae!</div><br />
                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum quaerat nemo qui consequatur id, dolor maiores in reprehenderit, recusandae veritatis voluptates. Laborum quia pariatur ea dolores veniam perspiciatis a.</div>
-                    </p>                    
+                    </p>
                 </div>
                 {/* --------------------- */}
 
@@ -59,7 +59,7 @@ const EventPrive = () => {
                     </p>
                     <img src={img2} alt="" />
                 </div>
-            
+
                 <div className='imgLeft'>
                     <img src={img3} alt="" />
                     <p>
@@ -77,7 +77,7 @@ const EventPrive = () => {
                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod deserunt dolorem magni omnis dicta voluptate exercitationem, sequi itaque libero labore dignissimos repellat error repudiandae culpa veniam distinctio pariatur? Recusandae!</div><br />
                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum quaerat nemo qui consequatur id, dolor maiores in reprehenderit, recusandae veritatis voluptates. Laborum quia pariatur ea dolores veniam perspiciatis a.</div>
                     </p>
-                    
+
                 </div>
                 {/* ----------------------- */}
 

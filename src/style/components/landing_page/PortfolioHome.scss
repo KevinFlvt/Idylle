@@ -1,9 +1,8 @@
 @import '../../index.scss';
 
 
- .carousel {
+.carousel {
     position: relative;
-    //height: 5%;
 
     .thumbs {
         display: flex;
@@ -18,7 +17,7 @@
     }
 }
 
- .carousel .overlay {
+.carousel .overlay {
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -32,4 +31,4 @@
         margin: .8rem 0 1rem 0;
 
     }
-} 
+}
